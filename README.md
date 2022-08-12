@@ -1,5 +1,7 @@
 # Welcome to Granola Team's Website
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/f4cf0fdf-255b-4b70-8bb5-a29107ccb15c/deploy-status)](https://app.netlify.com/sites/granolateam/deploys)
+
 This is the repository of source code for Granola Systems's website at https://granola.team.
 
 ## 🧞 Commands
