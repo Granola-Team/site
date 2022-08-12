@@ -1,18 +1,19 @@
 ---
-import BaseHead from '../components/BaseHead.astro'
-const {title} = Astro.props; 
+// import BaseHead from '../components/BaseHead.astro'
+// const {title} = Astro.props; && 		<BaseHead title={title} />
+import Header from '../components/Header.jsx'
 ---
 
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<BaseHead title={title} />
-		<style>
+	<head class="bg-red text white">
+		<Header />
+		<style class="bg-red text white">
 			/* scoped CSS styles go here: */
 			/* hi { .. } */
 		</style>
 	</head>
-		
+		<br/> 
 	<body>
 		<slot />
 	</body>
