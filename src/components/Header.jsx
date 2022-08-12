@@ -8,7 +8,7 @@ const Header = () => {
         <header class="bg-red text white">
             <div class="bg-red text white flex justfy-between items-center">
                 <div class="bg-red text white">
-                    Granola
+                    <p>Granola</p>
                 </div>
             </div>
         </header>
