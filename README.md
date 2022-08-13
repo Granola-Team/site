@@ -1,10 +1,10 @@
-# Welcome to Granola Team's Website
+# Granola Systems Website
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/f4cf0fdf-255b-4b70-8bb5-a29107ccb15c/deploy-status)](https://app.netlify.com/sites/granolateam/deploys)
 
-This is the repository of source code for Granola Systems's website at https://granolateam.netlify.app.
+This is the source code for the Granola Systems website (https://granola.team).
 
-## 🧞 Commands
+## 🧞 Development
 
 All commands are run from the root of the project, from a terminal:
 
