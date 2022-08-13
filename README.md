@@ -6,7 +6,7 @@ This is the source code for the Granola Systems website (https://granola.team).
 
 ## 🧞 Development
 
-All commands are run from the root of the project, from a terminal:
+Commands are run from the 'src' directory:
 
 | Command                | Action                                             |
 | :--------------------- | :------------------------------------------------- |
