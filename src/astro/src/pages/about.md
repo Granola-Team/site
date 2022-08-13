@@ -1,0 +1,3 @@
+# About Granola
+
+Coming soon!
