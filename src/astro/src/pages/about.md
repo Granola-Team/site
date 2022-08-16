@@ -1,17 +1,10 @@
-<style>
-.heading1 {
-    color: black;
-    font-weight:700;
-    font-size: 35px;
-}
-body {
-  background-color: #fefeef;
-}
-</style>
+---
+title: About
+layout: ../layouts/Layout.astro
+---
 
-<body>
-    <h1 id="identifier" class="heading1">About Granola</h1>
-        <p>Coming soon!</p>
-        <br/>
-    <a href="/">Return to Home Page</a>
-</body>
+# About Granola
+
+Coming soon!
+
+[Return to Home Page](/)

@@ -1,0 +1,29 @@
+.heading1 {
+    color: black;
+    font-weight:700;
+    font-size: 35px;
+}
+.site-header {
+  background-color: #b22222;
+  color: white;
+}
+.site-header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.button-wrapper {
+  text-align: end; 
+}
+.button {
+  color: #fefeef;
+}
+body {
+  background-color: #fefeef;
+}
+h3 {
+  color: #fefeef;
+}
+.nav {
+  justify-content: space-between;
+}
