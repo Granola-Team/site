@@ -3,11 +3,9 @@
 
 const Header = () => {
     return (
-        <header class="bg-red text white">
-            <div class="bg-red text white flex justfy-between items-center">
-                <div class="bg-red text white">
-                    <p><i>Insert Granola Logo</i></p>
-                </div>
+        <header>
+            <div class="heading1">
+                <p><i>Insert Granola Logo</i></p>
             </div>
         </header>
     )

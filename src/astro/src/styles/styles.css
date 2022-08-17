@@ -1,7 +1,7 @@
 .heading1 {
-    color: black;
+    color: #b6864b;
     font-weight:700;
-    font-size: 35px;
+    font-size: 15px;
 }
 .site-header {
   background-color: #b22222;
@@ -10,14 +10,15 @@
 .site-header__wrapper {
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  color: #b6864b;
+  margin-left: 75%;
+  color: #37647a;
 }
 .button-wrapper {
   text-align: end; 
 }
 .button {
   color: #fefeef;
+  text-decoration: none; 
 }
 body {
   background-color: #3a653a;
