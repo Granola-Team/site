@@ -11,6 +11,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: #b6864b;
 }
 .button-wrapper {
   text-align: end; 
@@ -19,11 +20,21 @@
   color: #fefeef;
 }
 body {
-  background-color: #fefeef;
+  background-color: #3a653a;
 }
 h3 {
   color: #fefeef;
 }
 .nav {
   justify-content: space-between;
+}
+.nav-link {
+    color: #b6864b;
+}
+.nav-item>a:hover {
+    color: #b6864b;
+}
+.navbar-nav>.active>a {
+    background-color: #C0C0C0;
+    color: #b6864b;
 }
