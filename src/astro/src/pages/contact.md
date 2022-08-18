@@ -1,6 +1,7 @@
 ---
 title: Contact Us
 layout: ../layouts/Layout.astro
+draft: true
 ---
 
 # Reach out to Granolas

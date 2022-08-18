@@ -1,6 +1,7 @@
 ---
 title: Blog
 layout: ../layouts/Layout.astro
+draft: true
 ---
 
 # Granola Blog

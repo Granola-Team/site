@@ -1,6 +1,7 @@
 ---
 title: About
 layout: ../layouts/Layout.astro
+draft: true
 ---
 
 # About Granola
