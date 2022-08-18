@@ -1,7 +1,7 @@
-User-agent: Googlebot
-Disallow: /nogooglebot/
-
 User-agent: *
-Allow: /
+Disallow: /about
+Disallow: /contact
+Disallow: /services
+Disallow: /blog
 
 Sitemap: https://granola.team
