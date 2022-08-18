@@ -1,0 +1,41 @@
+.heading1 {
+    color: #b6864b;
+    font-weight:700;
+    font-size: 15px;
+}
+.site-header {
+  background-color: #b22222;
+  color: white;
+}
+.site-header__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 75%;
+  color: #37647a;
+}
+.button-wrapper {
+  text-align: end; 
+}
+.button {
+  color: #fefeef;
+  text-decoration: none; 
+}
+body {
+  background-color: #3a653a;
+}
+h3 {
+  color: #fefeef;
+}
+.nav {
+  justify-content: space-between;
+}
+.nav-link {
+    color: #b6864b;
+}
+.nav-item>a:hover {
+    color: #b6864b;
+}
+.navbar-nav>.active>a {
+    background-color: #C0C0C0;
+    color: #b6864b;
+}

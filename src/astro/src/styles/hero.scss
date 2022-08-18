@@ -1,0 +1,38 @@
+.hero {
+    background-size: cover;
+    padding-top: 10px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgba(0, 0, 0, 0.3)), url('../../public/images/toan-chu-YKN_G9L9nMA-unsplash.jpg');
+    background-color: #074f57;
+    background-position: center center;
+    background-repeat: no-repeat;
+    text-shadow: 0 0 1px #000;
+}
+
+.hero h1 {
+    color: white;
+    font-size: 4.5em;
+}
+
+header p {
+    color: white;
+    font-size: 1.4em;
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
+
+header a {
+    color: pink;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
