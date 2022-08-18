@@ -1,9 +1,3 @@
-User-agent: *
-Allow: /pages/index.md
-Disallow: /pages/about.md
-Disallow: /pages/contact.md
-Disallow: /pages/services.md
-Disallow: /pages/blog.md
-Disallow: /styles/styles.css
-
-Sitemap: https://granola.team
+User-Agent: *
+Disallow: /*
+Allow: /$
