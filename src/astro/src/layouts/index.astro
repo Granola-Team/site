@@ -1,15 +1,23 @@
 ---
 import Hero from '../components/Hero'
 import '../styles/global.scss';
----
 
-<!DOCTYPE html>
+const {frontmatter} = Astro.props;
+---
 <html lang="en">
-	<head>
-		<title>Granola Systems</title>
-	</head>
-	<body>
-		<Hero />
-		<slot />
-	</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Granola is a software consultancy. We make winning software teams using our expertise in software team leadership, DevOps, distributed systems, blockchain, functional programming, and data engineering.">
+    <meta name="author" content="Granola Systems">
+    <meta property="og:title" content="Granola Systems">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://granola.team">
+    <meta property="og:description" content="Granola is a software consultancy. We make winning software teams using our expertise in software team leadership, DevOps, distributed systems, blockchain, functional programming, and data engineering.">
+    <title>{frontmatter.title}</title>
+  </head>
+<body>
+  <Hero />
+  <slot />
+</body>
 </html>
