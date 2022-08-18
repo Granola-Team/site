@@ -5,6 +5,8 @@ layout: ../layouts/Layout.astro
 
 # Reach out to Granolas
 
-Details coming soon
+You can reach out to us here: hello@granola.team
+
+More details coming soon. 
 
 [Return to Home Page](/)

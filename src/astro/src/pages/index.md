@@ -11,3 +11,5 @@ expertise in software team leadership, DevOps, Web3, distributed systems,
 blockchain, functional programming, and data engineering.
 
 [Learn more about Granola](/about){#identifier .button}
+
+You can reach out to us here: hello@granola.team
