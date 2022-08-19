@@ -6,10 +6,10 @@ const Hero = () => {
         <section className='hero'>
             <div className='container'>
                 <header>
-                    <h1>Granola Systems</h1>
-
-                    <p>Granola is a software consultancy. We make winning software teams using our expertise in software team leadership, DevOps, Web3, distributed systems, blockchain, functional programming, and data engineering.</p>
-                    <p>You can reach out to us here: <a href="mailto:hello@granola.team">hello@granola.team</a></p>
+                    <h1>Granola</h1>
+                    <p>We make winning software teams.</p>
+                    <p>Granola is a software consultancy. We make winning teams using our expertise in leadership, DevOps, Web3, distributed systems, functional programming, and data engineering.</p>
+                    <p>Say hello: <a href="mailto:hello@granola.team">hello@granola.team</a></p>
                 </header>
             </div>
         </section>
