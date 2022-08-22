@@ -1,6 +1,6 @@
 ---
 title: Contact Us
-layout: ../layouts/Layout.astro
+layout: ../layouts/index.astro
 draft: true
 ---
 
