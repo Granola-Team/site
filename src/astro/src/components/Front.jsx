@@ -2,7 +2,7 @@ import Nav from './Nav'
 import '../styles/hero.scss'
 import '../../public/images/GranolaLogo.png'
 
-const Hero = () => {
+const Front = () => {
     return (
         <section className='hero'>
             <div className='containerWords'>
@@ -20,4 +20,4 @@ const Hero = () => {
     )
 }
 
-export default Hero;
+export default Front;

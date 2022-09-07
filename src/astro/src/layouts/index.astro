@@ -1,5 +1,6 @@
 ---
-import Hero from '../components/Hero'
+import Front from '../components/Front'
+import Footer from '../components/Footer'
 import '../styles/global.scss';
 
 const {frontmatter} = Astro.props;
@@ -17,7 +18,8 @@ const {frontmatter} = Astro.props;
     <title>{frontmatter.title}</title>
   </head>
 <body>
-  <Hero />
+  <Front />
   <slot />
+  <Footer />
 </body>
 </html>
