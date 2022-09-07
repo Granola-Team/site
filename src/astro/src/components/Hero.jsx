@@ -14,7 +14,7 @@ const Hero = () => {
                 <p style={{fontWeight: "lighter"}}>Say hello: <a href="mailto:hello@granola.team">hello@granola.team</a></p>
             </div>
             <div className='container'>
-                <img src="../../public/images/GranolaLogo.png" />
+                <img src="../../images/GranolaLogo.png" />
             </div>
         </section>
     )
