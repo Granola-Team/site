@@ -1,13 +1,13 @@
 .hero {
     background-size: cover;
     padding-top: 10px;
-    width: 95vw;
-    height: 95vh;
+    width: 100vw;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: left;
-    background-color: white;
+    background-color: #242934;
     background-position: center center;
     background-repeat: no-repeat;
     text-shadow: 0 0 1px #000;
@@ -20,18 +20,22 @@
 }
 
 div p {
-    color: black;
+    color: white;
     font-size: 30px;
 }
 
 div h1 {
-    color: black;
+    color: white;
     font-size: 30px;
     padding-right: 10rem;
 }
 
+div p a {
+    color: #EDA13A;
+}
+
 div a {
-    color: orange;
+    color: black;
 }
 
 .container {
@@ -46,4 +50,15 @@ div a {
     margin-right: auto;
     padding-left: 1rem;
     padding-right: 1rem;
+}
+
+.nav {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 50%;
+    margin-left: 2%;
+    align-items: center;
+    margin-top: 2px;
+    margin-bottom: 2px;
 }

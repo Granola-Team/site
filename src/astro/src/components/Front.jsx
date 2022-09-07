@@ -1,4 +1,3 @@
-import Nav from './Nav'
 import '../styles/hero.scss'
 import '../../public/images/GranolaLogo.png'
 
@@ -14,7 +13,7 @@ const Front = () => {
                 <p style={{fontWeight: "lighter"}}>Say hello: <a href="mailto:hello@granola.team">hello@granola.team</a></p>
             </div>
             <div className='container'>
-                <img src="../../images/GranolaLogo.png" />
+                <img src="../../images/GranolaDarkLogo.jpg" />
             </div>
         </section>
     )

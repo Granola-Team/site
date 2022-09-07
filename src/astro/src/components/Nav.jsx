@@ -1,11 +1,15 @@
+import '../styles/hero.scss'
+import '../../public/images/GranolaLogo.png'
+
 const Nav = () => {
     return (
-        <ul>
-            <li>About</li>
-            <li>Services</li>
-            <li>Blog</li>
-            <li>Contact</li>
-        </ul>
+        <nav className='nav'>
+            <a>About</a>
+            <a>Services</a>
+            <a>Blog</a>
+            <a>Careers</a>
+            <a>Contact</a>
+        </nav>       
     )
 }
 
