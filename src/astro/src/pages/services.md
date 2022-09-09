@@ -1,6 +1,6 @@
 ---
 title: Our Services
-layout: ../layouts/index.astro
+layout: ../layouts/careers.astro
 draft: true
 ---
 

@@ -1,11 +1,12 @@
 import '../styles/hero.scss'
-import '../../public/images/GranolaLogo.png'
 
 const Footer = () => {
     return (
-        <div style={{backgroundColor: "#242934", display: "flex", justifyContent: "center"}}>
-            <p style={{fontWeight: "lighter", fontSize: "75%", margin: 0}}>Copyright © 2022 Granola Systems. All rights reserved.</p>
+        <footer style={{marginBottom: "100px"}}>
+        <div style={{height: "0", backgroundColor: "white", display: "flex", justifyContent: "center"}}>
+            <h6 style={{fontColor: "black", fontSize: "75%"}}>Copyright © 2022 Granola Systems. All rights reserved.</h6>
         </div>
+        </footer>
     )
 }
 

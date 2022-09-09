@@ -1,4 +1,4 @@
 ---
-layout: ../layouts/index.astro
+layout: ../layouts/Layout.astro
 title: Granola Systems
 ---

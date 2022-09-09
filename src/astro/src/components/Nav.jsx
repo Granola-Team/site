@@ -1,14 +1,12 @@
 import '../styles/hero.scss'
-import '../../public/images/GranolaLogo.png'
+import '../../public/images/HorizontalGranolaLogo.png'
 
 const Nav = () => {
     return (
         <nav className='nav'>
-            <a>About</a>
-            <a>Services</a>
-            <a>Blog</a>
-            <a>Careers</a>
-            <a>Contact</a>
+            <a href="/"><img src="../../images/HorizontalGranolaLogo.jpg" /></a>
+            <a href="/careers" style={{textDecoration: "none"}}>Careers</a>
+            <a href="mailto:hello@granola.team" style={{textDecoration: "none"}}>Contact</a>
         </nav>       
     )
 }
