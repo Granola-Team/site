@@ -1,6 +1,6 @@
 import '../styles/hero.scss'
 import '../../public/images/HorizontalGranolaLogo.png'
-
+ 
 const Nav = () => {
     return (
         <nav className='nav'>

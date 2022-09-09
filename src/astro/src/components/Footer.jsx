@@ -1,6 +1,6 @@
 import '../styles/hero.scss'
 
-const Footer = () => {
+const Footer = () => { 
     return (
         <footer style={{marginBottom: "100px"}}>
         <div style={{height: "0", backgroundColor: "white", display: "flex", justifyContent: "center"}}>

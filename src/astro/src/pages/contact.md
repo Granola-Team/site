@@ -8,6 +8,6 @@ draft: true
 
 You can reach out to us here: hello@granola.team
 
-More details coming soon. 
+Details coming soon.
 
 [Return to Home Page](/)

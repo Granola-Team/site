@@ -6,7 +6,7 @@ draft: true
 
 # About Granola
 
-Learn more about the team. 
+Learn more about our team. 
 
 Coming soon!
 

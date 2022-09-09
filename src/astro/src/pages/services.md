@@ -6,6 +6,6 @@ draft: true
 
 # Our Services
 
-Details here on projects we finished and are working on currently. 
+Information on our finished projects as well as what we are working on currently. 
 
 [Return to Home Page](/)

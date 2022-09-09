@@ -6,6 +6,6 @@ draft: false
 
 # Apply to be a Granola
 
-More details coming soon. 
+Adding posts here...
 
 [Return to Home Page](/)

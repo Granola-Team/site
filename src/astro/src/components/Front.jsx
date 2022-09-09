@@ -1,6 +1,6 @@
 import '../styles/hero.scss'
 import '../../public/images/GranolaLogo.png'
-
+ 
 const Front = () => {
     return (
         <div className='hero'>
