@@ -10,5 +10,8 @@ export default defineConfig({
   legacy: {
       astroFlavoredMarkdown: true,
   },
+  devOptions: {
+  tailwindConfig: './tailwind.config.js',
+  },
 });
 
