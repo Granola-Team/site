@@ -1,6 +1,6 @@
 ---
 title: Blog
-layout: ../layouts/careers.astro
+layout: ../layouts/CareersLayout.astro
 draft: true
 ---
 

@@ -1,9 +1,10 @@
 ---
 import Nav from '../components/Nav'
+import CareersFront from '../components/CareersFront'
 import Footer from '../components/Footer'
 import '../styles/global.scss';
 
-const {frontmatter} = Astro.props;
+const {title} = Astro.props;
 ---
 <html lang="en">
   <head> 
@@ -15,11 +16,26 @@ const {frontmatter} = Astro.props;
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://granola.team">
     <meta property="og:description" content="Granola is a software consultancy. We make winning software teams using our expertise in software team leadership, DevOps, distributed systems, blockchain, functional programming, and data engineering.">
-    <title>{frontmatter.title}</title>
+    <title>{title}</title>
+    <style>
+      :global(img) {
+        width: 800px;
+        height: 200px;
+        margin: 0 auto;
+      }
+      article {
+        margin: 0 auto;
+        max-width: 1200px;
+      }
+    </style>
   </head>
+
 <body>
-    <Nav />
-    <slot />
-    <Footer />
+  <Nav />
+    <article>
+      <slot />
+    </article>
+  <Footer />
 </body>
+
 </html>

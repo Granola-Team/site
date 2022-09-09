@@ -4,7 +4,7 @@ import Nav from '../components/Nav'
 import MainFooter from '../components/MainFooter'
 import '../styles/global.scss';
 
-const {frontmatter} = Astro.props;
+const {title} = Astro.props;
 ---
 <html lang="en">
   <head>
@@ -16,7 +16,7 @@ const {frontmatter} = Astro.props;
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://granola.team">
     <meta property="og:description" content="Granola is a software consultancy. We make winning software teams using our expertise in software team leadership, DevOps, distributed systems, blockchain, functional programming, and data engineering.">
-    <title>{frontmatter.title}</title>
+    <title>{title}</title>
   </head>
 <body>
   <Nav />

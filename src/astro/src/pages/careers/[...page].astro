@@ -1,0 +1,20 @@
+---
+import CareersFront from '../../layouts/CareersLayout.astro'
+export async function getStaticPaths({paginate}) {
+    const allJobs = await Astro.glob('./*.mdx');
+    const sortedJobs = (allJobs).sort((a,b) => new Date(b.date).valueOf() - new Date(a.date).valueOf());
+    return paginate(sortedJobs, {pageSize: 4});
+}
+const {page, frontmatter} = Astro.props;
+const title = "Careers"
+---
+
+<CareersFront title={title}>
+    <div>
+        <h3>{title}</h3>
+        <ul>{page.data.map((jobs: {frontmatter: string; url: string | URL; title: unknown;}) => (
+            <li><a href={jobs.url}>{jobs.frontmatter.title}</a></li>
+        ))} 
+        </ul> 
+    </div>
+</CareersFront>

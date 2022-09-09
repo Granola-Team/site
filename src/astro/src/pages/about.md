@@ -1,6 +1,6 @@
 ---
 title: About Us
-layout: ../layouts/careers.astro
+layout: ../layouts/CareersLayout.astro
 draft: true
 ---
 
