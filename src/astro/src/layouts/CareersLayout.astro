@@ -1,29 +1,15 @@
 ---
 import Nav from '../components/Nav'
-import CareersFront from '../components/CareersFront'
+import Heading from '../components/Heading.astro'
 import Footer from '../components/Footer'
-import '../styles/global.scss';
+import '../styles/styles.css';
 
 const {title} = Astro.props;
 ---
 <html lang="en">
   <head> 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Granola is a software consultancy. We make winning software teams using our expertise in software team leadership, DevOps, distributed systems, blockchain, functional programming, and data engineering.">
-    <meta name="author" content="Granola Systems">
-    <meta property="og:title" content="Granola Systems">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://granola.team">
-    <meta property="og:description" content="Granola is a software consultancy. We make winning software teams using our expertise in software team leadership, DevOps, distributed systems, blockchain, functional programming, and data engineering.">
-      <title>{title}</title>
-    <link rel="stylesheet" href="../styles/global.css">
+      <Heading title={title} />
     <style>
-      :global(img) {
-        width: 800px;
-        height: 200px;
-        margin: 0 auto;
-      }
       article {
         margin: 0 auto;
         max-width: 1200px;
@@ -31,7 +17,7 @@ const {title} = Astro.props;
     </style>
   </head>
 
-<body>
+<body class="w-full h-full bg-no-repeat bg-cover bg-center bg-fixed bg-nature">
   <Nav />
     <article>
       <slot />

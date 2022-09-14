@@ -1,5 +1,7 @@
 ---
-import CareersFront from '../../layouts/CareersLayout.astro'
+import CareersLayout from '../../layouts/CareersLayout.astro'
+import JobBox1 from '../../components/JobBox1'
+import JobBox2 from '../../components/JobBox2'
 export async function getStaticPaths({paginate}) {
     const allJobs = await Astro.glob('./*.mdx');
     const sortedJobs = (allJobs).sort((a,b) => new Date(b.date).valueOf() - new Date(a.date).valueOf());
@@ -9,12 +11,19 @@ const {page, frontmatter} = Astro.props;
 const title = "Careers"
 ---
 
-<CareersFront title={title}>
+<CareersLayout title={title}>
     <div>
-        <h3>{title}</h3>
-        <ul>{page.data.map((jobs: {frontmatter: string; url: string | URL; title: unknown;}) => (
-            <li><a href={jobs.url}>{jobs.frontmatter.title}</a></li>
+        <h1 class="mt-20 h-10 text-5xl text-white"><b>Apply to be a <span class="text-logoOrange"><i>Granola</i></span></b></h1>
+        <p class="text-2xl text-white">note this is copy from another -- Hey, we’ve been looking for you! We bet you are committed to excellence and initiative, meaning you must be the one we’re hunting for, and we must be the dream team for you.</p>
+        <p class="text-2xl text-white">this is also a copy -- Haven't found a position of interest? No big deal! Drop us your questions — you may still be exactly the pro we need, we just don't know it yet.</p>
+        <p class="mb-24 text-2xl text-white">yet another copy -- Come along, look into some of the current job openings below.</p>
+        <ul class="p-0">{page.data.map((jobs: {frontmatter: string; url: string | URL; title: unknown;}) => (
+            <li class="p-0 list-none"><a href={jobs.url} class="text-3xl text-white no-underline">{jobs.frontmatter.title}</a></li>
         ))} 
-        </ul> 
+        </ul>
+        <section class="flex flex-rows gap-12 mb-18">
+            <JobBox1/> 
+            <JobBox2/>
+        </section> 
     </div>
-</CareersFront>
+</CareersLayout>

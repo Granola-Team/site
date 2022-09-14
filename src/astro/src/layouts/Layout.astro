@@ -1,27 +1,19 @@
 ---
 import Front from '../components/Front'
+import Heading from '../components/Heading.astro'
 import Nav from '../components/Nav'
-import MainFooter from '../components/MainFooter'
-import '../styles/global.scss';
+import Footer from '../components/Footer'
+import '../styles/styles.css';
 
 const {title} = Astro.props;
 ---
 <html lang="en">
   <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Granola is a software consultancy. We make winning software teams using our expertise in software team leadership, DevOps, distributed systems, blockchain, functional programming, and data engineering.">
-    <meta name="author" content="Granola Systems">
-    <meta property="og:title" content="Granola Systems">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://granola.team">
-    <meta property="og:description" content="Granola is a software consultancy. We make winning software teams using our expertise in software team leadership, DevOps, distributed systems, blockchain, functional programming, and data engineering.">
-      <title>{title}</title>
-    <link rel="stylesheet" href="../styles/global.css">
+    <Heading title={title} />
   </head>
-<body>
+<body class="w-full h-full bg-no-repeat bg-cover bg-center bg-fixed bg-nature">
   <Nav />
   <Front />
-  <MainFooter />
+  <Footer className="fixed inset-x-0 bottom-0" />
 </body>
 </html>
