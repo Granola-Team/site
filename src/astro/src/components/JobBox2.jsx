@@ -6,7 +6,7 @@ const JobBox2 = () => {
         <img class="w-full h-[18rem]" src="/images/arif-riyanto-G1N9kDHqBrQ-unsplash.jpg" alt="Granolas coding" />
         <div class="px-6 py-4">
             <div class="font-bold text-xl mb-2">
-                <a href="./components/careers/page/jobs-2" class="text-gray-700 no-underline">Senior Web3 Software Engineering Consultant (Rust)</a></div>
+                <a href="./careers/jobs-2" class="text-gray-700 no-underline">Senior Web3 Software Engineering Consultant (Rust)</a></div>
             <p class="text-gray-700 text-base">
             This is your chance to join a small, collaborative team and to work on fascinating cross-disciplinary problems that span cryptography, data engineering, product design, economics, distributed systems, and more. At Granola, we want the best. Compensation is top-of-the-market. Join our team!
             </p>
