@@ -14,6 +14,9 @@ module.exports = {
         lg: "1024px",
         xl: "1200px",
       },
+      fontFamily: {
+        body: ['Open Sans', 'sans-serif'],
+      },
       backgroundImage: {
         nature:
           "url('/images/mike-benna-SBiVq9eWEtQ-unsplash.jpg')",
