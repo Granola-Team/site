@@ -24,6 +24,9 @@ module.exports = {
       colors: {
         logoOrange: {
           DEFAULT: "#EDA13A",
+        },
+        logoDark: {
+          DEFAULT: "#242934",
         }
       }
     },
