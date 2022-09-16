@@ -10,7 +10,7 @@ const Front = () => {
                 <p className="text-3xl text-white">Granola is a software consultancy.</p>
                 <p className="-mt-9 flex-grow text-3xl text-white">We make winning teams using our expertise in leadership, DevOps, Web3, distributed systems, 
                     functional programming, and data engineering.</p>
-                <p className="mb-48 text-3xl text-white bg-emerald-500 bg-opacity-10">Say hello: 
+                <p className="mb-48 text-3xl text-white bg-emerald-500 bg-opacity-20">Say hello: 
                     <a href="mailto:hello@granola.team" className="mb-0 text-3xl text-logoOrange bg-emerald-500 bg-opacity-20">
                         hello@granola.team
                     </a></p>
