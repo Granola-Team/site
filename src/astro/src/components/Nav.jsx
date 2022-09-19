@@ -1,5 +1,5 @@
 import '../styles/styles.css';
-import '../../public/images/HorizontalGranolaLogo.png'
+import '../../public/images/GranolaHorizontalDarkBg.png'
  
 const Nav = () => {
     return (
