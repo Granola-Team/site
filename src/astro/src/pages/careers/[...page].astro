@@ -3,7 +3,7 @@ import CareersLayout from '../../layouts/CareersLayout.astro'
 import JobBox1 from '../../components/JobBox1'
 import JobBox2 from '../../components/JobBox2'
 export async function getStaticPaths({paginate}) {
-    const allJobs = await Astro.glob('./*.md');
+    const allJobs = await Astro.glob('./*.mdx');
     const sortedJobs = (allJobs).sort((a,b) => new Date(b.date).valueOf() - new Date(a.date).valueOf());
     return paginate(sortedJobs, {pageSize: 4});
 }
