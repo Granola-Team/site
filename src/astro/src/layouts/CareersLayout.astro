@@ -1,10 +1,8 @@
 ---
 import Nav from '../components/Nav'
-import Join from '../components/Join'
 import Heading from '../components/Heading.astro'
 import Footer from '../components/Footer'
 import '../styles/styles.css';
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 const {title} = Astro.props;
 ---
@@ -18,18 +16,12 @@ const {title} = Astro.props;
       }
     </style>
   </head>
-<Router>
 <body class="w-full h-full bg-no-repeat bg-cover bg-center bg-fixed bg-logoDark">
   <Nav />
   <article class="text-white">
     <slot />
-    <Switch>
-    <Route path="/careers">
-      <Join className="max-w-[1200px]" />
-    </Route>
-    </Switch>
   </article>
   <Footer class="absolute inset-x-0 bottom-0" />
 </body>
-</Router>
 </html>
+
