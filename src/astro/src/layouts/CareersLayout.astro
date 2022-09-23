@@ -22,7 +22,9 @@ const {title} = Astro.props;
   <article class="text-white">
     <slot />
   </article>
-  <Footer class="absolute inset-x-0 bottom-0" />
+  <div class="absolute inset-x-0 bottom-0">
+    <Footer />
+  </div>
 </body>
 </html>
 
