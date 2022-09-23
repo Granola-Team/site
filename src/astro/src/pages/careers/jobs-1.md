@@ -34,4 +34,5 @@ As a Software Engineer, you will:
 
 This is your chance to join a small, collaborative team and to work on fascinating cross-disciplinary problems that span cryptography, data engineering, product design, economics, distributed systems, and more.
 
-At Granola, we want the best. Compensation is top-of-the-market. Join our team!
+Join our team!
+

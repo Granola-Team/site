@@ -1,7 +1,5 @@
 ---
 import CareersLayout from '../../layouts/CareersLayout.astro'
-import JobBox1 from '../../components/JobBox1'
-import JobBox2 from '../../components/JobBox2'
 export async function getStaticPaths({paginate}) {
     const allJobs = await Astro.glob('./*.md');
     const sortedJobs = (allJobs).sort((a,b) => new Date(b.date).valueOf() - new Date(a.date).valueOf());
@@ -16,12 +14,12 @@ const title = "Careers"
         <h1 class="mt-20 h-10 text-5xl text-white">
             <b>Be a <span class="text-logoOrange"><i>Granola</i></span></b>
         </h1>
-        <p class="text-2xl text-white">This is your chance to join a small, collaborative team and to work on fascinating cross-disciplinary problems that span cryptography, data engineering, product design, economics, distributed systems, and more. At Granola, we want the best. Compensation is top-of-the-market. Join our team!</p>
-        <p class="text-2xl text-white"><em><u>this is copied from another website:</u></em> Come along, look into some of the current job openings below.</p>
+        <p class="text-2xl text-white">Join a small, collaborative team to work on fascinating cross-disciplinary problems that span web3, data engineering, product design, economics, distributed systems, and more.</p>
+        <p class="text-2xl text-white"><u>Open roles:</u></p>
         <ul class="h-[50vh] p-0">{page.data.map((jobs: {frontmatter: string; url: string | URL; title: unknown;}) => (
             <li class="flex flex-col flex-shrink p-4 list-none">
                 <a href={jobs.url} class="py-4 px-8 rounded-lg text-logoOrange no-underline text-2xl 
-                bg-white hover:bg-slate-400 hover:font-bold">{jobs.frontmatter.title} &rarr;
+                bg-white">{jobs.frontmatter.title} &rarr;
                 <div class="px-2 pt-2 pb-2">
                     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Remote</span>
                     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Mentorship</span>
@@ -30,6 +28,5 @@ const title = "Careers"
             </li>
         ))} 
         </ul>
-        <p class="mb-10 text-2xl text-white"><em><u>this is copied from another website:</u></em> Haven't found a position of interest? No big deal! Drop us your questions — you may still be exactly the pro we need, we just don't know it yet.</p>
     </div>
 </CareersLayout>
