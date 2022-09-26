@@ -1,0 +1,17 @@
+---
+import Front from '../components/Front'
+import Heading from '../components/Heading.astro'
+import Nav from '../components/Nav'
+import '../styles/styles.css';
+
+const {title} = Astro.props;
+---
+<html lang="en" class="w-full h-full">
+  <head>
+    <Heading title={title} />
+  </head>
+<body class="w-full h-full xl:overflow-hidden bg-no-repeat bg-cover bg-center bg-fixed bg-logoDark">
+    <Nav />
+    <Front /> 
+</body>
+</html>

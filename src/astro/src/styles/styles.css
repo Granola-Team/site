@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  @apply font-body;
+}
+
+body {
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "calt" 0;
+  position: relative;
+  padding: 0;
+  margin: 0;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+@layer utilities {
+  .h-500 {
+    height: 500px;
+  },
+  .h-250 {
+    height: 250px;
+  },
+  .w-400 {
+    width: 400px;
+  },
+  .w-200 {
+    width: 200px;
+  }
+}
