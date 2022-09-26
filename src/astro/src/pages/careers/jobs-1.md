@@ -34,5 +34,3 @@ As a Software Engineer, you will:
 
 This is your chance to join a small, collaborative team and to work on fascinating cross-disciplinary problems that span cryptography, data engineering, product design, economics, distributed systems, and more.
 
-Join our team!
-
