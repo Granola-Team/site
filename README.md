@@ -6,7 +6,7 @@ This is the source code for the Granola Systems website (https://granola.team).
 
 ## 🧞 Development
 
-Commands are run from the 'src' directory:
+Commands are run from the 'src/astro' directory:
 
 | Command                | Action                                             |
 | :--------------------- | :------------------------------------------------- |
