@@ -2,8 +2,8 @@ import '../styles/styles.css';
 
 const Footer = () => { 
     return (
-        <footer className="text-xs text-white text-center">
-            <p className="m-0 p-2">Copyright © 2022 Granola Systems. All rights reserved.</p>
+        <footer className="fixed inset-x-0 bottom-0 text-center">
+            <p className="text-xs text-white">Copyright © 2022 Granola Systems. All rights reserved.</p>
         </footer>
     )
 }
