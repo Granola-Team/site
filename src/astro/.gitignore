@@ -1,6 +1,7 @@
 # build output
 dist/
 node_modules/
+public/styles/
 
 # logs
 npm-debug.log*

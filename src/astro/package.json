@@ -3,9 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro build",
+    "dev": "npm run build-css && astro dev",
+    "build": "npm run build-css && astro build",
     "preview": "astro preview",
     "astro": "astro",
     "build-css": "tailwindcss build -i src/styles/styles.css -o public/styles/styles.css"

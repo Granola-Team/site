@@ -17,10 +17,6 @@ module.exports = {
       fontFamily: {
         body: ['Open Sans', 'sans-serif'],
       },
-      backgroundImage: {
-        nature:
-          "url('/images/mike-benna-SBiVq9eWEtQ-unsplash.jpg')",
-      },
       colors: {
         logoOrange: {
           DEFAULT: "#EDA13A",
