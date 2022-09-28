@@ -14,3 +14,16 @@ const Nav = () => {
 }
 
 export default Nav; 
+
+// import * as React from 'react';
+// import { useLocation } from 'react-router-dom';
+
+
+    /*
+        const location = useLocation();
+        {location.pathname !== "/careers" && 
+        if (typeof window !== "undefined") {
+        return <React.Fragment />
+        }
+    */
+        

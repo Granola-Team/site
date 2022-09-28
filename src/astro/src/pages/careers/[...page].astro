@@ -5,11 +5,11 @@ export async function getStaticPaths({paginate}) {
     const sortedJobs = (allJobs).sort((a,b) => new Date(b.date).valueOf() - new Date(a.date).valueOf());
     return paginate(sortedJobs, {pageSize: 4});
 }
-import Join from '../../components/Join'
+import Join from '../../components/Join.astro'
 
 const {page, frontmatter} = Astro.props;
 const title = "Careers"
-const {url} = Astro.url; 
+const url = Astro.url; 
 ---
 
 <CareersLayout title={title}>
@@ -30,6 +30,7 @@ const {url} = Astro.url;
                 </a>
             </li>
         ))} 
-        </ul>     
+        </ul>
+        {url.pathname !== "/careers" && <Join client:load url={url} />}     
     </div>
 </CareersLayout>
