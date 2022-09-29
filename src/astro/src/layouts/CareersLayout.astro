@@ -1,5 +1,5 @@
 ---
-// import Nav from '../components/Nav'
+import Nav from '../components/Nav'
 import Heading from '../components/Heading.astro'
 // import Footer from '../components/Footer'
 import Join from '../components/Join.astro'
@@ -24,6 +24,7 @@ const url = Astro.url;
     </style>
   </head>
 <body class="w-full h-full bg-no-repeat bg-cover bg-center bg-fixed bg-logoDark">
+  <Nav />
   <article class="text-white">
     <slot />
   </article>

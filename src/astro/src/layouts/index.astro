@@ -1,6 +1,7 @@
 ---
 import Front from '../components/Front'
 import Heading from '../components/Heading.astro'
+import Nav from '../components/Nav'
 import '../styles/styles.css';
 
 const {title} = Astro.props;
@@ -10,6 +11,7 @@ const {title} = Astro.props;
     <Heading title={title} />
   </head>
 <body class="w-full h-full xl:overflow-hidden bg-no-repeat bg-cover bg-center bg-fixed bg-logoDark">
-    <Front /> 
+  <Nav />
+  <Front /> 
 </body>
 </html>
