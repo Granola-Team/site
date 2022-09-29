@@ -1,0 +1,32 @@
+---
+import CareersLayout from '../../layouts/CareersLayout.astro'
+export async function getStaticPaths({paginate}) {
+    const allJobs = await Astro.glob('./*.mdx');
+    const sortedJobs = (allJobs).sort((a,b) => new Date(b.date).valueOf() - new Date(a.date).valueOf());
+    return paginate(sortedJobs, {pageSize: 4});
+}
+const {page, frontmatter} = Astro.props;
+const title = "Careers"
+const url = Astro.url; 
+---
+<CareersLayout title={title}>
+    <div class="px-12">
+        <h1 class="mt-20 h-10 text-4xl sm:text-5xl text-white">
+            <b>Be a <span class="text-logoOrange"><i>Granola</i></span></b>
+        </h1>
+        <p class="pt-6 sm:pt-3 sm:p-0 text-2xl text-white">Join a small, collaborative team to work on fascinating cross-disciplinary problems that span Web3, data engineering, product design, economics, distributed systems, and more.</p>
+        <h3 class="text-2xl sm:text-3xl text-white">Open Roles:</h3>
+        <ul class="h-[50vh] p-0">{page.data.map((jobs: {frontmatter: string; url: string | URL; title: unknown;}) => (
+            <li class="flex flex-col flex-shrink p-4 list-none">
+                <a href={jobs.url} class="py-4 px-8 rounded-lg text-logoOrange no-underline text-2xl 
+                bg-white">{jobs.frontmatter.title} &rarr;
+                <div class="px-2 pt-2 pb-2">
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Remote</span>
+                    <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Mentorship</span>
+                </div>
+                </a>
+            </li>
+        ))} 
+        </ul>
+    </div>
+</CareersLayout>
