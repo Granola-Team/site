@@ -1,7 +1,7 @@
 ---
 import Nav from '../components/Nav'
 import Heading from '../components/Heading.astro'
-// import Footer from '../components/Footer'
+import Footer from '../components/Footer'
 import Join from '../components/Join.astro'
 import '../styles/styles.css';
 
@@ -32,4 +32,7 @@ const url = Astro.url;
     {url.pathname !== "/careers" && <Join url={url} />}     
   </article>  
 </body>
+<footer>
+  <Footer />
+</footer>
 </html>
