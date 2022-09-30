@@ -7,7 +7,6 @@ export async function getStaticPaths({paginate}) {
 }
 const {page, frontmatter} = Astro.props;
 const title = "Careers"
-import Join from '../../components/Join.astro'
 const url = Astro.url; 
 ---
 <CareersLayout title={title}>
