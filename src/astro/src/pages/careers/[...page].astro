@@ -19,7 +19,7 @@ const url = Astro.url;
         <ul class="h-[50vh] p-0">{page.data.map((jobs: {frontmatter: string; url: string | URL; title: unknown;}) => (
             <li class="flex flex-col flex-shrink p-4 list-none">
                 <a href={jobs.url} class="py-4 px-8 rounded-lg text-logoOrange no-underline text-2xl 
-                bg-white">{jobs.frontmatter.title} &rarr;
+                bg-white hover:transition-none hover:bg-gray-400 hover:duration-75">{jobs.frontmatter.title} &rarr;
                 <div class="px-2 pt-2 pb-2">
                     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Remote</span>
                     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Mentorship</span>
