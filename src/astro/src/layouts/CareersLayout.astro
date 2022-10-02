@@ -23,7 +23,7 @@ const url = Astro.url;
     <slot />
   </article>
   <article>
-    {url.pathname !== "/careers/" && <Join url={url} />}     
+    {url.pathname !== "/careers" && <Join url={url} />}     
   </article>  
 </body>
 </html>
