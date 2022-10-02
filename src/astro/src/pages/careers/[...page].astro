@@ -30,7 +30,7 @@ const url = Astro.url;
         ))} 
         </ul>
         <article>
-            {url.pathname !== "/careers" && <Join url={url} />}     
+            {url.pathname !== "/careers/" && <Join url={url} />}     
         </article>  
     </div>
 </CareersLayout>
