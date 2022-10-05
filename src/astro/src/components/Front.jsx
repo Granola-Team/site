@@ -1,12 +1,11 @@
 import '../styles/styles.css';
-import '../../public/images/GranolaLogo.png'
 
 const Front = () => {
     return (
         <section className="flex flex-col items-center lg:flex-row">
             <div className="robin">
                 <img className="max-w-full"
-                     src="../../images/DarkTransparentGranolaLogo.png" />
+                     src="/images/DarkTransparentGranolaLogo.png" />
             </div>
             <div className="flex flex-col px-12 lg:h-screen lg:justify-center">
                 <h1 className="text-4xl sm:text-5xl text-white"
