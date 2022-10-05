@@ -3,8 +3,9 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "clean": "rm -fr node_modules dist public/styles",
     "dev": "npm run build-css && astro dev",
-    "build": "npm run build-css && astro build",
+    "build": "npm run clean && npm i && npm run build-css && astro build",
     "preview": "astro preview",
     "astro": "astro",
     "build-css": "tailwindcss build -i src/styles/styles.css -o public/styles/styles.css"
