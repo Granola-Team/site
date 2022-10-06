@@ -17,11 +17,11 @@ const Front = () => {
                     engineering.</p>
                 <div className="flex flex-row space-x-8 py-8">
                     <a href="/careers" className="w-fit py-4 px-8 rounded-lg
-                    text-white no-underline text-2md bg-logoOrange">Careers</a>
-                    <a href="/" className="w-fit py-4 px-8 rounded-lg 
-                    text-white no-underline text-2md bg-logoOrange">Clients</a>
-                    <a href="mailto:hello@granola.team" className="w-fit py-4 px-8 rounded-lg 
-                    text-white no-underline text-2md bg-logoOrange">Contacts</a>
+                    text-white no-underline text-2md bg-logoOrange">
+                        Careers</a>
+                    <a href="mailto:hello@granola.team" className="w-fit py-4 px-8 
+                    rounded-lg text-white no-underline text-2md bg-logoOrange">
+                        Contacts</a>
                 </div>
             </div>
         </section>
