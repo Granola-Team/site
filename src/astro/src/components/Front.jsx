@@ -15,10 +15,14 @@ const Front = () => {
                     using our expertise in leadership, DevOps, Web3,
                     distributed systems, functional programming, and data
                     engineering.</p>
-                <p className="text-2xl sm:text-3xl text-white">
-                    <a href="mailto:hello@granola.team"
-                       className="mb-0 text-2xl sm:text-3xl text-logoOrange z-20"
-                        >hello@granola.team</a></p>
+                <div className="flex flex-row space-x-8 py-8">
+                    <a href="/careers" className="w-fit py-4 px-8 rounded-lg
+                    text-white no-underline text-2md bg-logoOrange">
+                        Careers</a>
+                    <a href="mailto:hello@granola.team" className="w-fit py-4 px-8 
+                    rounded-lg text-white no-underline text-2md bg-logoOrange">
+                        Contact</a>
+                </div>
             </div>
         </section>
     )
