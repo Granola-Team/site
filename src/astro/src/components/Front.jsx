@@ -21,7 +21,7 @@ const Front = () => {
                         Careers</a>
                     <a href="mailto:hello@granola.team" className="w-fit py-4 px-8 
                     rounded-lg text-white no-underline text-2md bg-logoOrange">
-                        Contacts</a>
+                        Contact</a>
                 </div>
             </div>
         </section>
