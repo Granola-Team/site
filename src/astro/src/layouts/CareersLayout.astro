@@ -25,10 +25,9 @@ const url = Astro.url;
   <article class="text-white">
     <slot />
   </article>
+  <article>
     {url.pathname !== "/careers/" && <Join url={url} />}     
   </article>
+  <Footer /> 
 </body>
-<footer class="clear-both bottom-0 inset-x-0 absolute" >
-  <Footer />
-</footer>  
 </html>
