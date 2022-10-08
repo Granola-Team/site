@@ -28,8 +28,8 @@ const url = Astro.url;
   <article>
     {url.pathname !== "/careers/" && <Join url={url} />}     
   </article>  
-  <footer class="bottom-0 inset-x-0 absolute">
-    <Footer />
-  </footer>  
 </body>
+<footer class="clear-both bottom-0 inset-x-0 absolute">
+  <Footer />
+</footer>  
 </html>
