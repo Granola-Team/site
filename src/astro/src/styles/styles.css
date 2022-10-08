@@ -4,6 +4,7 @@
 
 html {
   @apply font-body;
+  height: 100%;
 }
 body {
   text-rendering: optimizeLegibility;
@@ -15,16 +16,18 @@ body {
   margin: 0;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  height: 100%;
 }
 
 .wrapper {
   min-height: 100%;
   height: auto !important;
   height: 100%;
-  margin: 0 auto -15px; /* the bottom margin is the negative value of the footer's height */
+  margin: 0 auto -150px; /* the bottom margin is the negative value of the footer's height */
+  clear: both;
 }
 .footer, .push {
-  height: 15px; /* .push must be the same height as .footer */
+  height: 150px; /* .push must be the same height as .footer */
 }
 
 @layer utilities {
