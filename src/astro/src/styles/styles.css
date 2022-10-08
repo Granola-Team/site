@@ -19,17 +19,6 @@ body {
   height: 100%;
 }
 
-.wrapper {
-  min-height: 100%;
-  height: auto !important;
-  height: 100%;
-  margin: 0 auto -150px; /* the bottom margin is the negative value of the footer's height */
-  clear: both;
-}
-.footer, .push {
-  height: 150px; /* .push must be the same height as .footer */
-}
-
 @layer utilities {
   .h-500 {
     height: 500px;

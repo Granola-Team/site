@@ -10,7 +10,7 @@ const Nav = () => {
                         src="../../images/GranolaHorizontalDarkBg.png" /></a>
                 </div>
                 <div className="flex justify-end items-center mr-6 gap-6">
-                    <a href="/careers" 
+                    <a href="/careers/" 
                         className="text-xl sm:text-2xl text-white no-underline">Careers</a>
                     <a href="mailto:hello@granola.team" 
                         className="text-xl sm:text-2xl text-white no-underline">Contact</a>
