@@ -20,16 +20,20 @@ const url = Astro.url;
       }
     </style>
   </head>
-<body class="w-full h-full bg-no-repeat bg-cover bg-center bg-fixed bg-logoDark">
-  <Nav />
-  <article class="text-white">
-    <slot />
-  </article>
-  <article>
-    {url.pathname !== "/careers/" && <Join url={url} />}     
-  </article>  
+<body class="bg-no-repeat bg-cover bg-center bg-fixed bg-logoDark">
+  <div class="min-h-full">
+    <div class="pb-[15px] overflow-auto">
+      <Nav />
+      <article class="text-white">
+        <slot />
+      </article>
+      <article>
+        {url.pathname !== "/careers/" && <Join url={url} />}     
+      </article>
+    </div>
+  </div>
+  <footer class="relative clear-both h-[15px] -mt-[15px]">
+    <Footer /> 
+  </footer>
 </body>
-<footer>
-  <Footer />
-</footer>
 </html>

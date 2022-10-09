@@ -4,8 +4,8 @@
 
 html {
   @apply font-body;
+  height: 100%;
 }
-
 body {
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -16,6 +16,7 @@ body {
   margin: 0;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  height: 100%;
 }
 
 @layer utilities {
