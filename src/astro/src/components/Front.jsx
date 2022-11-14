@@ -19,7 +19,10 @@ const Front = () => {
                     <a href="/careers" className="w-fit py-4 px-8 rounded-lg
                     text-white no-underline text-2md bg-logoOrange">
                         Careers</a>
-                    <a href="mailto:hello@granola.team" className="w-fit py-4 px-8 
+                    <a href="/blog" className="w-fit py-4 px-8 rounded-lg
+                    text-white no-underline text-2md bg-logoOrange">
+                        Blog</a>
+                    <a href="mailto:hello@granola.team" className="w-fit py-4 px-8
                     rounded-lg text-white no-underline text-2md bg-logoOrange">
                         Contact</a>
                 </div>
