@@ -16,7 +16,7 @@ some frequently asked questions about the MINA protocol and why we use it
 
 # *Can you provide a very succinct and relatable explanation of zero knowledge?*
 - Zero Knowledge is a new cryptographic technology that allows an untrusted party to verify that it has some knowledge or can pass some constraint without actually revealing the information behind that verification.
-- A great example would be a secured building with a Zero Knowledge key card access door. The door would employ Zero Knowledge techniques to verify to the internal system that the cardholder is authorized to access the building without revealing which of the set of authorized users they are. 
+- A great example would be a secured building with a Zero Knowledge key card access door. The door would employ Zero Knowledge techniques to verify to the internal system that the cardholder is authorized to access the building without revealing which of the set of authorized users they are.
 
 # *What is a zkApp?*
 
@@ -26,7 +26,8 @@ some frequently asked questions about the MINA protocol and why we use it
 - This is accomplished by using recursive composition of Zero Knowledge proofs that are generated with every block, guaranteeing a constant, size, and hence, a succinct chain.
 
 # *How is Mina’s blockchain only 22kB?*
-- Mina's blockchain is unique in that it maintains a constant size of 22kB. It accomplishes this by recursively composing Zero Knowledge proofs (TODO: add more)
+- Mina's blockchain is unique in that it maintains a constant size of 22kB. It accomplishes this by recursively composing Zero Knowledge proofs (TODO: add more // I added the paragraph below and we can work on combining/mixing)
+- Mina's blockchain is small in size because it uses a novel consensus mechanism called "Proof of Stake Snapshots" that reduces the amount of data that needs to be stored by each node in the network. Essentially Mina Protocol takes the equivalent of a digital snapshot of the previous blocks and then puts that “photo” of the previous blocks together with the new transaction. This mechanism allows Mina to produce small block sizes and reduce the amount of data that must be stored to maintain the security and integrity of the blockchain. Additionally, Mina uses a compact Merkle tree data structure to store the blockchain state, further reducing the storage requirements for each node.
 
 # *What language are zkApps developed in? Is it hard to learn?*
 - ZkApps are typically developed in the programming language Solidity, which is a contract-oriented programming language for writing smart contracts on the Ethereum platform. Solidity has its own unique syntax and features that one needs to learn. Usually programmers and software engineers learn Javascript/TypeScript before moving onto more difficult languages, such as Solidity.
@@ -38,3 +39,10 @@ some frequently asked questions about the MINA protocol and why we use it
 # *Does Mina have plans for a zkEVM?*
 
 # *What are some top use case examples for zkApps?*
+- zkApps are a type of blockchain-based application that allows users to make transactions without revealing sensitive information. Some of the top use case examples for zkApps include:
+- 1)	Financial Services: zkApps can be used for secure and private financial transactions such as peer-to-peer lending, remittances, and insurance.
+- 2)	Identity Verification: zkApps can be used for secure and private identity verification, eliminating the need for sensitive information to be shared with third-party entities.
+- 3)	Supply Chain Management: zkApps can be used to improve the transparency and efficiency of supply chain operations, enabling secure and private tracking of goods and information.
+- 4)	Healthcare: zkApps can be used for secure and private electronic medical records and telemedicine applications, protecting sensitive patient information.
+- 5)	Gaming: zkApps can be used for secure and private online gaming, enabling players to make transactions without revealing their identity or personal information.
+- Overall, zkApps have the potential to revolutionize many industries by enabling secure and private transactions without sacrificing security or transparency.
