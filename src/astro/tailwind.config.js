@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  mode: 'jit', 
+  mode: 'jit',
   content: ["./src/index.html", "./src/**/*.{astro,md,mdx,js,jsx,ts,tsx}"],
   corePlugins: {
     preflight: false,
@@ -16,6 +16,9 @@ module.exports = {
       },
       fontFamily: {
         body: ['Open Sans', 'sans-serif'],
+      },
+      textColor: {
+        "OrangeMINA": "#FF603B",
       },
       colors: {
         logoOrange: {
