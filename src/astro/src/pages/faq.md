@@ -1,7 +1,7 @@
 ---
 title: FAQ
 layout: ../layouts/content.astro
-draft: false
+draft: true
 ---
 
 ### Mina FAQ
