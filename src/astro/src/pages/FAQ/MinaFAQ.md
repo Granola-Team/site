@@ -1,15 +1,22 @@
 ---
 layout: '../../layouts/FAQLayout.astro'
 title: Mina FAQ
-date: 2023-02-07
+date: 2023-05-01
 draft: false
 ---
 
 # Mina FAQ
 
-Here are some frequently asked questions about the MINA protocol and why we use it.
+Here are answers to frequently asked questions about the Mina protocol and why we at Granola use it.
 
-#### *Why should developers build on Mina and not Ethereum?*
+### Q: Is Mina EVM compatible?
+
+A: No. The on-chain decentralized apps of the Mina protocol (called "zkApps")
+are unlike those of Ethereum dApps, and they are not compatible with the
+Ethereum Virtual Machine (EVM).
+
+<!--
+### Q: Why should developers build on Mina instead of Ethereum?
 
 - Mina Protocol supports zero-knowledge proofs and zero-knowledge applications (zkApps) natively. This put the power of ZK tech in the hands of developers since day one.
 - Mina is on the cutting edge of ZK tech, being the first to implement some of the revolutionary cryptographic primitives.
@@ -49,10 +56,6 @@ That's not the whole story. The zk-SNARK which represents the validity of all tr
 - Mina recognized the challenges with building ZkApps with Solidity and has developed SnarkyJS. With Mina, zkApps are written in TypeScript using SnarkyJS. SnarkyJS is a TypeScript library for writing smart contracts based on zero-knowledge proofs for the Mina Protocol. It is included automatically when creating a new project using the Mina zkApp CLI.
 - This page directly from the Mina docs <a href="https://docs.minaprotocol.com/zkapps/how-to-write-a-zkapp" style="color:#FF603B;">How to Write a ZkApp</a> provides a guide on how to write a ZkApp in Mina, including the steps for setting up the development environment, writing and testing the smart contract code, deploying the ZkApp to the Mina network, and using the ZkApp from a client. The guide also provides information on the tools and resources available for building and deploying ZkApps on Mina. Overall, the guide is intended to help developers get started with writing ZkApps on Mina, and to provide a comprehensive introduction to the concepts and tools required for building and deploying ZkApps on the Mina blockchain.
 
-#### *Is Mina EVM compatible?*
-
-Pretty sure it's not
-
 #### *Does Mina have plans for a zkEVM?*
 
 `=nil;` foundation has been working on putting Mina blockchain proofs on Ethereum [probably not the best link?](https://minacrypto.com/2021/10/02/bridging-mina-with-ethereum-meet-nil-foundation/) so that one can access info about Mina from Ethereum
@@ -69,3 +72,4 @@ zkApps are a type of blockchain-based application that allows users to make tran
 6. Scalability: zero-knowledge tech in general allows for processing many transactions off-chain and simply sumbitting a proof that they were processed correctly, i.e. rollup systems with validity proofs.
 
 Overall, zkApps have the potential to revolutionize many industries by enabling secure and private transactions without sacrificing security or transparency.
+-->
