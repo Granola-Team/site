@@ -41,7 +41,7 @@ are some top use cases for computers?" No answer will satisfy because the
 possibilities are so vastly many.
 
 
-### Q: Is Mina EVM compatible?
+### Q: Is Mina EVM-compatible?
 
 A: No.
 
