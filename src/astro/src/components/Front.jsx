@@ -19,9 +19,6 @@ const Front = () => {
                     <a href="/FAQ/MinaFAQ" className="w-fit py-4 px-8 rounded-lg
                     text-white no-underline text-2md bg-logoOrange">
                         Mina FAQ</a>
-                    <a href="/careers" className="w-fit py-4 px-8 rounded-lg
-                    text-white no-underline text-2md bg-logoOrange">
-                        Careers</a>
                     <a href="mailto:hello@granola.team" className="w-fit py-4 px-8
                     rounded-lg text-white no-underline text-2md bg-logoOrange">
                         Contact</a>

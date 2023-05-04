@@ -17,9 +17,6 @@ module.exports = {
       fontFamily: {
         body: ['Open Sans', 'sans-serif'],
       },
-      textColor: {
-        "OrangeMINA": "#FF603B",
-      },
       colors: {
         logoOrange: {
           DEFAULT: "#EDA13A",
