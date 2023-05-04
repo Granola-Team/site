@@ -33,3 +33,9 @@ body {
     width: 200px;
   }
 }
+
+@layer base {
+  a {
+    @apply text-logoOrange
+  }
+}

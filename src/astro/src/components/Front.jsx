@@ -16,10 +16,10 @@ const Front = () => {
                     distributed systems, functional programming, and data
                     engineering.</p>
                 <div className="flex flex-row space-x-8 py-8">
-                    <a href="/careers" className="w-fit py-4 px-8 rounded-lg
+                    <a href="/FAQ/MinaFAQ" className="w-fit py-4 px-8 rounded-lg
                     text-white no-underline text-2md bg-logoOrange">
-                        Careers</a>
-                    <a href="mailto:hello@granola.team" className="w-fit py-4 px-8 
+                        Mina FAQ</a>
+                    <a href="mailto:hello@granola.team" className="w-fit py-4 px-8
                     rounded-lg text-white no-underline text-2md bg-logoOrange">
                         Contact</a>
                 </div>

@@ -1,0 +1,33 @@
+---
+import Heading from '../components/Heading.astro'
+import Footer from '../components/Footer'
+import Nav from '../components/Nav'
+import '../styles/styles.css';
+const {title} = Astro.props;
+---
+
+<html lang="en">
+  <head>
+      <Heading title="Mina FAQ" />
+    <style>
+      article {
+        margin: 0 auto;
+        max-width: 1200px;
+        padding: 25px;
+      }
+    </style>
+  </head>
+<body class="bg-no-repeat bg-cover bg-center bg-fixed bg-logoDark">
+  <div class="min-h-full">
+    <div class="pb-[15px] overflow-auto">
+        <Nav />
+        <article class="text-white">
+            <slot />
+        </article>
+    </div>
+  </div>
+  <footer class="relative clear-both h-[15px] -mt-[15px]">
+    <Footer />
+  </footer>
+</body>
+</html>
