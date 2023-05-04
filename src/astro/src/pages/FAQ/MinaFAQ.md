@@ -7,13 +7,43 @@ draft: false
 
 # Mina FAQ
 
-Here are answers to frequently asked questions about the Mina protocol and why we at Granola use it.
+Here are answers to frequently asked questions about the Mina protocol and why
+we at Granola use Mina.
+
+
+### Q: What is a 'zkApp'?
+
+A: 'zkApp' is the name for [https://en.wikipedia.org/wiki/Smart_contract](smart
+contracts) on the Mina blockchain.
+
+
+### Q: In what language are zkApps developed?
+
+At present, zkApps are written with either
+[https://github.com/o1-labs/snarkyjs](SnarkyJS) (TypeScript/JavaScript) or
+[https://github.com/o1-labs/snarky](Snarky) (OCaml).
+
+It is possible to create new languages for writing zkApps.
+
 
 ### Q: Is Mina EVM compatible?
 
 A: No. The on-chain decentralized apps of the Mina protocol (called "zkApps")
 are unlike those of Ethereum dApps, and they are not compatible with the
 Ethereum Virtual Machine (EVM).
+
+See this
+[https://docs.minaprotocol.com/zkapps/zkapps-for-ethereum-developers](page in
+the official Mina Protocol documentation) to understand more about the
+differences between the Mina Protocol and the Ethereum blockchain.
+
+
+### Q: Does the Mina community plan to create a 'zkEVM'?
+
+A 'zkEVM' entry exists on the [https://minaprotocol.com/mina-roadmap](the
+official roadmap published by the Mina Foundation), but little else is known.
+It is not yet defined what, exactly, a 'zkEVM' is.
+
 
 <!--
 ### Q: Why should developers build on Mina instead of Ethereum?
@@ -31,10 +61,6 @@ Ethereum Virtual Machine (EVM).
 - Zero Knowledge is a new cryptographic technology that allows an untrusted party to verify that it has some knowledge or can pass some constraint without actually revealing the information behind that verification.
 - A great example would be a secured building with a Zero Knowledge key card access door. The door would employ Zero Knowledge techniques to verify to the internal system that the cardholder is authorized to access the building without revealing which of the set of authorized users they are.
 
-#### *What is a zkApp?*
-
-ZkApps have two components: smart contract and UI. The UI can be written in your favorite language, no restrictions. The smart contracts are typically written in TypeScript/JavaScript using <a href="https://github.com/o1-labs/snarkyjs" style="color:#FF603B;">SnarkyJS</a>, but they can also be written in OCaml using <a href="https://github.com/o1-labs/snarky" style="color:#FF603B;">Snarky</a>. Writing zkApps on Mina has a very similar feel to writing smart contracts in Solidity.
-
 #### *What does it mean when you say Mina is a “succinct blockchain”?*
 
 - The Mina blockchain is considered to be "succinct." this means that a node on the network doesn't need to replay the entire transaction history of the network in order to verify the current state of the chain
@@ -49,16 +75,6 @@ It's validity can be represented by a 22kB zk-SNARK
 - Mina's blockchain is small in size because it uses a novel consensus mechanism called "Proof of Stake Snapshots" that reduces the amount of data that needs to be stored by each node in the network. Essentially Mina Protocol takes the equivalent of a digital snapshot of the previous blocks and then puts that “photo” of the previous blocks together with the new transaction. This mechanism allows Mina to produce small block sizes and reduce the amount of data that must be stored to maintain the security and integrity of the blockchain. Additionally, Mina uses a compact Merkle tree data structure to store the blockchain state, further reducing the storage requirements for each node.
 
 That's not the whole story. The zk-SNARK which represents the validity of all transitions of the Mina blockchain is 22kB. The totality of blocks on Mina is much larger, but a block producer does not need to retain all the blocks to particiapte in consensus. They only need to the most recent 290 blocks.
-
-#### *What language are zkApps developed in? Is it hard to learn?*
-
-- Ethereum smart contracts are typically written in the programming language Solidity. Solidity has its own unique syntax and features that one needs to learn. Usually programmers and software engineers learn Javascript/TypeScript before moving onto more difficult languages, such as Solidity.
-- Mina recognized the challenges with building ZkApps with Solidity and has developed SnarkyJS. With Mina, zkApps are written in TypeScript using SnarkyJS. SnarkyJS is a TypeScript library for writing smart contracts based on zero-knowledge proofs for the Mina Protocol. It is included automatically when creating a new project using the Mina zkApp CLI.
-- This page directly from the Mina docs <a href="https://docs.minaprotocol.com/zkapps/how-to-write-a-zkapp" style="color:#FF603B;">How to Write a ZkApp</a> provides a guide on how to write a ZkApp in Mina, including the steps for setting up the development environment, writing and testing the smart contract code, deploying the ZkApp to the Mina network, and using the ZkApp from a client. The guide also provides information on the tools and resources available for building and deploying ZkApps on Mina. Overall, the guide is intended to help developers get started with writing ZkApps on Mina, and to provide a comprehensive introduction to the concepts and tools required for building and deploying ZkApps on the Mina blockchain.
-
-#### *Does Mina have plans for a zkEVM?*
-
-`=nil;` foundation has been working on putting Mina blockchain proofs on Ethereum [probably not the best link?](https://minacrypto.com/2021/10/02/bridging-mina-with-ethereum-meet-nil-foundation/) so that one can access info about Mina from Ethereum
 
 #### *What are some top use case examples for zkApps?*
 
