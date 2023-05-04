@@ -12,14 +12,16 @@ we at Granola use Mina.
 
 ### Q: What is a 'zkApp'?
 
-A: 'zkApp' is the name for [https://en.wikipedia.org/wiki/Smart_contract](smart contracts) on the Mina blockchain.
+A: 'zkApp' is the name for [smart
+contracts](https://en.wikipedia.org/wiki/Smart_contract) on the Mina
+blockchain.
 
 
 ### Q: In what language are zkApps developed?
 
 At present, zkApps are written with either
-[https://github.com/o1-labs/snarkyjs](SnarkyJS) (TypeScript/JavaScript) or
-[https://github.com/o1-labs/snarky](Snarky) (OCaml).
+[SnarkyJS](https://github.com/o1-labs/snarkyjs) (TypeScript/JavaScript) or
+[Snarky](https://github.com/o1-labs/snarky) (OCaml).
 
 It is possible to create new languages for writing zkApps.
 
@@ -30,16 +32,15 @@ A: No. The on-chain decentralized apps of the Mina protocol (called "zkApps")
 are unlike those of Ethereum dApps, and they are not compatible with the
 Ethereum Virtual Machine (EVM).
 
-See this
-[https://docs.minaprotocol.com/zkapps/zkapps-for-ethereum-developers](page in
-the official Mina Protocol documentation) to understand more about the
-differences between the Mina Protocol and the Ethereum blockchain.
+See this [page in the official Mina Protocol
+documentation](https://docs.minaprotocol.com/zkapps/zkapps-for-ethereum-developers)
+to understand more about the differences between the Mina and Ethereum.
 
 
 ### Q: Does the Mina community plan to create a 'zkEVM'?
 
-A 'zkEVM' entry exists on the [https://minaprotocol.com/mina-roadmap](the
-official roadmap published by the Mina Foundation), but little else is known.
+A 'zkEVM' entry exists on the [the official roadmap published by the Mina
+Foundation](https://minaprotocol.com/mina-roadmap), but little else is known.
 It is not yet defined what, exactly, a 'zkEVM' is.
 
 
