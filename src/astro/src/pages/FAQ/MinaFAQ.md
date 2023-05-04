@@ -6,8 +6,8 @@ draft: false
 
 # Mina FAQ
 
-Here are answers to frequently asked questions about the Mina protocol and why
-we at Granola use Mina.
+Here are answers to frequently asked questions about the [Mina
+Protocol](https://minaprotocol.com) and why we at Granola use Mina.
 
 
 ### Q: What is a 'zkApp'?
