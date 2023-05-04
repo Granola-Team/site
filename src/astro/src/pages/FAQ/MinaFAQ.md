@@ -10,6 +10,14 @@ Here are answers to frequently asked questions about the [Mina
 Protocol](https://minaprotocol.com) and why we at Granola use Mina.
 
 
+### Q: What is 'zero-knowledge'?
+
+A: Zero-knowledge is crytographic technology that allows one to prove that one
+knows something without revealing that something.
+
+For more, see [this Wikipedia entry](https://en.wikipedia.org/wiki/Zero-knowledge_proof).
+
+
 ### Q: What is a 'zkApp'?
 
 A: 'zkApp' is the name for [smart
@@ -19,25 +27,35 @@ blockchain.
 
 ### Q: In what language are zkApps developed?
 
-At present, zkApps are written with either
+A: At present, zkApps are written with either
 [SnarkyJS](https://github.com/o1-labs/snarkyjs) (TypeScript/JavaScript) or
-[Snarky](https://github.com/o1-labs/snarky) (OCaml).
+[Snarky](https://github.com/o1-labs/snarky) (OCaml). It is possible to create
+new languages for writing zkApps.
 
-It is possible to create new languages for writing zkApps.
+
+### Q: What are the top use cases for zkApps?
+
+A: zkApps on Mina trustlessly verify off-chain computations and data without
+disclosing sensitive information. Asking for top use cases is like asking "what
+are some top use cases for computers?" No answer will satisfy because the
+possibilities are so vastly many.
 
 
 ### Q: Is Mina EVM compatible?
 
-A: No. The on-chain decentralized apps of the Mina protocol (called "zkApps")
-are unlike those of Ethereum dApps, and they are not compatible with the
-Ethereum Virtual Machine (EVM).
+A: No.
 
-See this [page in the official Mina Protocol
+The on-chain decentralized apps of the Mina protocol (called "zkApps") are
+unlike those of Ethereum dApps, and they are not compatible with the Ethereum
+Virtual Machine (EVM).
+See [the official Mina Protocol
 documentation](https://docs.minaprotocol.com/zkapps/zkapps-for-ethereum-developers)
 to understand more about the differences between the Mina and Ethereum.
 
 
 ### Q: Does the Mina community plan to create a 'zkEVM'?
+
+A: Yes.
 
 A 'zkEVM' entry exists on the [the official roadmap published by the Mina
 Foundation](https://minaprotocol.com/mina-roadmap), but little else is known.
@@ -55,11 +73,6 @@ It is not yet defined what, exactly, a 'zkEVM' is.
 
 #### *Why should developers build on Mina and not Polygon?*
 
-#### *Can you provide a very succinct and relatable explanation of zero knowledge?*
-
-- Zero Knowledge is a new cryptographic technology that allows an untrusted party to verify that it has some knowledge or can pass some constraint without actually revealing the information behind that verification.
-- A great example would be a secured building with a Zero Knowledge key card access door. The door would employ Zero Knowledge techniques to verify to the internal system that the cardholder is authorized to access the building without revealing which of the set of authorized users they are.
-
 #### *What does it mean when you say Mina is a “succinct blockchain”?*
 
 - The Mina blockchain is considered to be "succinct." this means that a node on the network doesn't need to replay the entire transaction history of the network in order to verify the current state of the chain
@@ -75,16 +88,4 @@ It's validity can be represented by a 22kB zk-SNARK
 
 That's not the whole story. The zk-SNARK which represents the validity of all transitions of the Mina blockchain is 22kB. The totality of blocks on Mina is much larger, but a block producer does not need to retain all the blocks to particiapte in consensus. They only need to the most recent 290 blocks.
 
-#### *What are some top use case examples for zkApps?*
-
-zkApps are a type of blockchain-based application that allows users to make transactions without revealing sensitive information. Some of the top use case examples for zkApps include:
-
-1. Financial Services: zkApps can be used for secure and private financial transactions such as peer-to-peer lending, remittances, taxes, proof of solvency, complience, and insurance.
-2. Identity Verification: zkApps can be used for secure and private identity verification, eliminating the need for sensitive information to be shared with third-party entities.
-3. Supply Chain Management: zkApps can be used to improve the transparency and efficiency of supply chain operations, enabling secure and private tracking of goods and information.
-4. Healthcare: zkApps can be used for secure and private electronic medical records and telemedicine applications, protecting sensitive patient information.
-5. Gaming: zkApps can be used for secure and private online gaming, enabling players to make transactions without revealing their identity or personal information.
-6. Scalability: zero-knowledge tech in general allows for processing many transactions off-chain and simply sumbitting a proof that they were processed correctly, i.e. rollup systems with validity proofs.
-
-Overall, zkApps have the potential to revolutionize many industries by enabling secure and private transactions without sacrificing security or transparency.
 -->
