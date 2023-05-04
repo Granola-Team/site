@@ -1,7 +1,6 @@
 ---
 layout: '../../layouts/FAQLayout.astro'
 title: Mina FAQ
-date: 2023-05-01
 draft: false
 ---
 
@@ -13,8 +12,7 @@ we at Granola use Mina.
 
 ### Q: What is a 'zkApp'?
 
-A: 'zkApp' is the name for [https://en.wikipedia.org/wiki/Smart_contract](smart
-contracts) on the Mina blockchain.
+A: 'zkApp' is the name for [https://en.wikipedia.org/wiki/Smart_contract](smart contracts) on the Mina blockchain.
 
 
 ### Q: In what language are zkApps developed?
