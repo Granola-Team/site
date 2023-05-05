@@ -27,8 +27,8 @@ blockchain.
 
 ### Q: In what language are zkApps developed?
 
-A: At present, zkApps are written with either
-[SnarkyJS](https://github.com/o1-labs/snarkyjs) (TypeScript/JavaScript) or
+A: At present, zkApps are written either with
+[SnarkyJS](https://github.com/o1-labs/snarkyjs) (TypeScript/JavaScript) or with
 [Snarky](https://github.com/o1-labs/snarky) (OCaml). It is possible to create
 new languages for writing zkApps.
 
@@ -36,9 +36,9 @@ new languages for writing zkApps.
 ### Q: What are the top use cases for zkApps?
 
 A: zkApps on Mina trustlessly verify off-chain computations and data without
-disclosing sensitive information. Asking for top use cases is like asking "what
-are some top use cases for computers?" No answer will satisfy because the
-possibilities are so vastly many.
+disclosing sensitive information. Asking for top use cases is like asking "What
+are some top use cases for computers?" No answer will be sufficient because the
+possibilities are so vast.
 
 
 ### Q: Is Mina EVM-compatible?
@@ -59,7 +59,7 @@ A: Yes.
 
 A 'zkEVM' entry exists on the [the official roadmap published by the Mina
 Foundation](https://minaprotocol.com/mina-roadmap), but little else is known.
-It is not yet defined what, exactly, a 'zkEVM' is.
+As yet, there is no exact definition of a 'zkEVM'.
 
 
 <!--
