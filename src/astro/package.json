@@ -1,11 +1,10 @@
 {
   "name": "@Granola-Team/site",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "private": true,
   "scripts": {
     "clean": "rm -fr node_modules dist public/styles",
     "dev": "npm run build-css && astro dev",
-    "build": "npm run clean && npm i && npm run build-css && astro build",
     "preview": "astro preview",
     "astro": "astro",
     "build-css": "tailwindcss build -i src/styles/styles.css -o public/styles/styles.css"

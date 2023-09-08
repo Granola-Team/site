@@ -1,5 +1,8 @@
 # netlify.toml
 #
+# Settings in this file override any corresponding settings in the Netlify UI.
+# Make changes here in this file, and not in the Netlify UI, so that there is
+# clarity about which settings apply.
 # See https://docs.netlify.com/configure-builds/file-based-configuration/
 
 [build]
@@ -16,4 +19,4 @@
 
   # Build command.
   #
-  command = "npm run build"
+  command = "./build"

@@ -4,5 +4,4 @@ node_modules/
 public/styles/
 
 # logs
-npm-debug.log*
 pnpm-debug.log*
