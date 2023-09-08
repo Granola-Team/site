@@ -4,5 +4,5 @@ set -eu
 
 pnpm run clean
 pnpm i
-# pnpm run build-css
-# astro build
+pnpm run build-css
+pnpm run astro build
