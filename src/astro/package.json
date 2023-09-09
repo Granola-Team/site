@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "clean": "rm -fr node_modules dist public/styles",
-    "dev": "pnpm run build-css && astro dev",
+    "dev": "pnpm build-css && astro dev",
     "preview": "astro preview",
     "astro": "astro",
     "build-css": "tailwindcss build -i src/styles/styles.css -o public/styles/styles.css"
