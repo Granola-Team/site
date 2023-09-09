@@ -1,2 +1,8 @@
+# Temporary files from Vim-family editors and more
 .*.swp
+
+# MacOS Finder file droppings
 .DS_Store
+
+# Local Netlify directories
+.netlify
