@@ -9,7 +9,7 @@ pnpm --version
 
 # Perform clean build of project.
 #
-pnpm run clean
+pnpm clean
 pnpm i
-pnpm run build-css
-pnpm run astro build
+pnpm build-css
+pnpm astro build
