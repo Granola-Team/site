@@ -3,12 +3,12 @@ import Heading from '../components/Heading.astro'
 import Footer from '../components/Footer'
 import Nav from '../components/Nav'
 import '../styles/styles.css';
-const {title} = Astro.props;
+const {frontmatter} = Astro.props;
 ---
 
 <html lang="en">
   <head>
-      <Heading title="Mina FAQ" />
+      <Heading title={frontmatter.title} />
     <style>
       article {
         margin: 0 auto;

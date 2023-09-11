@@ -5,13 +5,13 @@ import Nav from '../components/Nav'
 import Join from '../components/Join.astro'
 import '../styles/styles.css';
 
-const {title} = Astro.props;
+const frontmatter = Astro.props;
 const url = Astro.url; 
 ---
 
 <html lang="en">
   <head> 
-      <Heading title={title} />
+      <Heading title={frontmatter.title} />
     <style>
       article {
         margin: 0 auto;

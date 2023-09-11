@@ -4,11 +4,11 @@ import Heading from '../components/Heading.astro'
 import Footer from '../components/Footer'
 import '../styles/styles.css';
 
-const {title} = Astro.props;
+const {frontmatter} = Astro.props;
 ---
 <html lang="en" class="w-full h-full">
   <head>
-    <Heading title={title} />
+    <Heading title={frontmatter.title} />
   </head>
 <body class="w-full h-full bg-no-repeat bg-cover bg-center bg-fixed bg-logoDark">
   <Front /> 
