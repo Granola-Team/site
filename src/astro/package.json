@@ -2,6 +2,7 @@
   "name": "@Granola-Team/site",
   "version": "0.3.0",
   "private": true,
+  "packageManager": "pnpm@8.7.4",
   "scripts": {
     "clean": "rm -fr node_modules dist public/styles",
     "dev": "pnpm build-css && astro dev",
