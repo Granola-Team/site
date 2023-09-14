@@ -5,11 +5,6 @@ title: On-Chain Voting Results for Mina MIPs
 
 # On-Chain Voting Results for [MIPs](https://github.com/MinaProtocol/MIPs)
 
-> [Granola Systems](https://granola.team/) is a software consultancy and Mina
-> ecosystem partner. We have expertise in leadership, DevOps, Web3, functional
-> programming, and data engineering. Granola has developed a dashboard for
-> displaying [on-chain voting results](https://mina.vote).
-
 This article details the calculation of Mina's on-chain voting results.
 
 Equipped with the tools and knowledge, anyone can independently verify
