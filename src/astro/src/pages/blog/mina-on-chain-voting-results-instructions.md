@@ -496,3 +496,9 @@ on-chain governance functionality. This is a huge milestone which advances
 the community and decentralization of the protocol. Granola is honored to be
 a part of the technical implementation of such a major development in the
 Mina ecosystem.
+
+## Granola Systems
+
+[Granola Systems](https://granola.team/) is a software consultancy and Mina
+ecosystem partner. Granola has developed a dashboard for displaying [on-chain
+voting results](https://mina.vote).
