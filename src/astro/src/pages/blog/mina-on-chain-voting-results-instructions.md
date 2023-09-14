@@ -5,11 +5,6 @@ title: On-Chain Voting Results for Mina MIPs
 
 # On-Chain Voting Results for [MIPs](https://github.com/MinaProtocol/MIPs)
 
-> [Granola Systems](https://granola.team/) is a software consultancy and Mina
-> ecosystem partner. We have expertise in leadership, DevOps, Web3, functional
-> programming, and data engineering. Granola has developed a dashboard for
-> displaying [on-chain voting results](https://mina.vote).
-
 This article details the calculation of Mina's on-chain voting results.
 
 Equipped with the tools and knowledge, anyone can independently verify
@@ -91,7 +86,7 @@ required to the least):
   - Try [Altair GraphQL browser extension](https://altairgraphql.dev/)
   - Try [Mina Explorer GraphiQL GUI](https://graphql.minaexplorer.com/)
 - Generate a report using the [`mina_voting`
-  utility](https://github.com/Isaac-DeFrain/mina-utils/tree/main/scripts/voting-results)
+  utility](https://github.com/Granola-Team/mina-utils/tree/main/scripts/voting-results)
 - Simply read along and learn
 
 ## Where to obtain the data
@@ -501,3 +496,9 @@ on-chain governance functionality. This is a huge milestone which advances
 the community and decentralization of the protocol. Granola is honored to be
 a part of the technical implementation of such a major development in the
 Mina ecosystem.
+
+## Granola Systems
+
+[Granola Systems](https://granola.team/) is a software consultancy and Mina
+ecosystem partner. Granola has developed a dashboard for displaying [on-chain
+voting results](https://mina.vote).
