@@ -91,7 +91,7 @@ required to the least):
   - Try [Altair GraphQL browser extension](https://altairgraphql.dev/)
   - Try [Mina Explorer GraphiQL GUI](https://graphql.minaexplorer.com/)
 - Generate a report using the [`mina_voting`
-  utility](https://github.com/Isaac-DeFrain/mina-utils/tree/main/scripts/voting-results)
+  utility](https://github.com/Granola-Team/mina-utils/tree/main/scripts/voting-results)
 - Simply read along and learn
 
 ## Where to obtain the data
