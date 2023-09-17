@@ -5,6 +5,5 @@
 pkgs.mkShell {
   packages = [
     pkgs.nodePackages.pnpm
-    # pkgs.netlify-cli
   ];
 }
