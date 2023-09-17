@@ -5,7 +5,7 @@
   "packageManager": "pnpm@8.7.4",
   "scripts": {
     "clean": "rm -fr node_modules dist public/styles",
-    "dev": "pnpm build-css && astro dev",
+    "dev": "TAILWIND_MODE=watch astro dev",
     "preview": "astro preview",
     "astro": "astro",
     "build-css": "tailwindcss build -i src/styles/styles.css -o public/styles/styles.css"
