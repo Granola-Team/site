@@ -2,9 +2,8 @@
 
 set -eu
 
-# Report versions.
+# Report version for debugging and diagnostic purposes.
 #
-node --version
 pnpm --version
 
 # Perform clean build of project.
