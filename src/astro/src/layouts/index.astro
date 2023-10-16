@@ -1,7 +1,7 @@
 ---
-import Front from '../components/Front'
+import Front from '../components/Front.astro'
 import Heading from '../components/Heading.astro'
-import Footer from '../components/Footer'
+import Footer from '../components/Footer.astro'
 import '../styles/styles.css';
 
 const {frontmatter} = Astro.props;
@@ -11,7 +11,7 @@ const {frontmatter} = Astro.props;
     <Heading title={frontmatter.title} />
   </head>
 <body class="w-full h-full bg-no-repeat bg-cover bg-center bg-fixed bg-logoDark">
-  <Front /> 
+  <Front />
 </body>
 <footer>
   <Footer />

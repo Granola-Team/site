@@ -1,16 +1,16 @@
 ---
 import Heading from '../components/Heading.astro'
-import Footer from '../components/Footer'
-import Nav from '../components/Nav'
+import Footer from '../components/Footer.astro'
+import Nav from '../components/Nav.astro'
 import Join from '../components/Join.astro'
 import '../styles/styles.css';
 
 const frontmatter = Astro.props;
-const url = Astro.url; 
+const url = Astro.url;
 ---
 
 <html lang="en">
-  <head> 
+  <head>
       <Heading title={frontmatter.title} />
     <style>
       article {
@@ -28,12 +28,12 @@ const url = Astro.url;
         <slot />
       </article>
       <article>
-        {url.pathname !== "/careers/" && <Join url={url} />}     
+        {url.pathname !== "/careers/" && <Join url={url} />}
       </article>
     </div>
   </div>
   <footer class="relative clear-both h-[15px] -mt-[15px]">
-    <Footer /> 
+    <Footer />
   </footer>
 </body>
 </html>
