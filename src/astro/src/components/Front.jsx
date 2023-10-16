@@ -16,13 +16,6 @@ const Front = () => {
                     distributed systems, functional programming, and data
                     engineering.</p>
                 <div className="flex flex-row space-x-8 py-8">
-                    <a href="/FAQ/MinaFAQ" className="w-fit py-4 px-8 rounded-lg
-                    text-white no-underline text-2md bg-logoOrange">
-                        Mina FAQ</a>
-                    <a href="/blog/mina-on-chain-voting-results-instructions"
-                    className="w-fit py-4 px-8 rounded-lg
-                    text-white no-underline text-2md bg-logoOrange">
-                        Blog</a>
                     <a href="mailto:hello@granola.team" className="w-fit py-4 px-8
                     rounded-lg text-white no-underline text-2md bg-logoOrange">
                         Contact</a>
