@@ -1,7 +1,7 @@
 ---
 layout: '../../layouts/FAQLayout.astro'
 title: Mina FAQ
-draft: false
+date: 2022-09-20
 ---
 
 # Mina FAQ
