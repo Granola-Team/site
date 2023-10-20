@@ -1,5 +1,5 @@
 ---
-import FAQLayout from '../../layouts/FAQLayout.astro';
+import BlogLayout from '../../layouts/BlogLayout.astro';
 export async function getStaticPaths({paginate}) {
     const allJobs = await Astro.glob('./*.md');
     const sortedJobs = (allJobs).sort((a,b) => new Date(b.date).valueOf() - new Date(a.date).valueOf());
@@ -9,7 +9,7 @@ const {page, frontmatter} = Astro.props;
 const title = "Blog"
 const url = Astro.url;
 ---
-<FAQLayout title={title}>
+<BlogLayout title={title}>
     <div class="px-12">
         <h1 class="mt-20 h-10 text-4xl sm:text-5xl text-white">
             <b>The <span class="text-logoOrange"><i>Granola Systems</i></span> BLOG</b>
@@ -33,4 +33,4 @@ const url = Astro.url;
         ))}
         </ul>
     </div>
-</FAQLayout>
+</BlogLayout>

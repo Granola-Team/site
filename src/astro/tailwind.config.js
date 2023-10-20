@@ -15,7 +15,7 @@ module.exports = {
         xl: "1200px",
       },
       fontFamily: {
-        body: ['Merriweather', 'serif'],
+        body: ['Open Sans', 'sans-serif'],
       },
       colors: {
         logoOrange: {
