@@ -1,5 +1,5 @@
 ---
-layout: '../../layouts/FAQLayout.astro'
+layout: '../../layouts/BlogLayout.astro'
 title: On-Chain Voting Results for Mina MIPs
 date: 2023-01-20
 ---

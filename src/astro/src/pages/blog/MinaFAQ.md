@@ -1,5 +1,5 @@
 ---
-layout: '../../layouts/FAQLayout.astro'
+layout: '../../layouts/BlogLayout.astro'
 title: Mina FAQ
 date: 2022-09-20
 ---
