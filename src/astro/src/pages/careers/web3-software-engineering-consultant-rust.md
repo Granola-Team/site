@@ -1,8 +1,7 @@
 ---
-layout: '../../layouts/CareersLayout.astro'
 title: Web3 Software Engineering Consultant (Rust)
 date: 2022-08-31
-draft: false
+draft: true
 ---
 
 # Role overview
@@ -32,4 +31,3 @@ As a Software Engineer, you will:
 ### Opportunity
 
 This is your chance to join a small, collaborative team and to work on fascinating cross-disciplinary problems that span cryptography, data engineering, product design, economics, distributed systems, and more.
-
