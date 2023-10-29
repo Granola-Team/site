@@ -3,7 +3,7 @@ steps:
   command: |
     echo $HOME
     echo $PATH
-    nix-shell --run "echo Nix works"
+    nix-shell --run "which netlify && which pnpm"
   key: prereqs
 
 - label: "Build"
@@ -12,8 +12,8 @@ steps:
   key: build
   depends_on: prereqs
 
-#- label: "Publish"
-#  command: |
-#    nix-shell --run "netlify publish"
-#  key: publish
-#  depends_on: build
+- label: "Publish"
+  command: |
+    nix-shell --run "netlify deploy"
+  key: publish
+  depends_on: build
