@@ -9,9 +9,9 @@ steps:
 - label: "Publish"
   command: |
     nix-shell --run "netlify build"
+    suffix=''
     if [ "$BUILDKITE_BRANCH" = 'main' ]; then
-      netlify deploy --prod
-    else
-      netlify deploy
+      suffix='--prod'
     fi
+    nix-shell --run "netlify deploy $suffix"
   depends_on: prereqs
