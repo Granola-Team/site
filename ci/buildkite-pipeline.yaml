@@ -6,7 +6,8 @@ steps:
     nix-shell --run "which netlify && which pnpm"
   key: prereqs
 
-- label: "Publish"
+- label: "Build and Deploy"
   command: |
-    nix-shell --run "netlify build && netlify deploy"
+    nix-shell --run "netlify build"
+    nix-shell --run ./deploy
   depends_on: prereqs
