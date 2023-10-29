@@ -1,6 +1,6 @@
 # Granola Systems Website
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/f4cf0fdf-255b-4b70-8bb5-a29107ccb15c/deploy-status)](https://app.netlify.com/sites/granolateam/deploys)
+[![Build status](https://badge.buildkite.com/eca493aa36628e3a97cf4f2133035041d1d39fa6b95e03a951.svg)](https://buildkite.com/granola/granola-website)
 
 This is the source code for the Granola Systems website (https://granola.team).
 
