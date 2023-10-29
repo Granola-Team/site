@@ -8,5 +8,10 @@ steps:
 
 - label: "Publish"
   command: |
-    nix-shell --run "netlify build && netlify deploy"
+    nix-shell --run "netlify build"
+    if [ "$BUILDKITE_BRANCH" = 'main' ]; then
+      netlify deploy --prod
+    else
+      netlify deploy
+    fi
   depends_on: prereqs
