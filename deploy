@@ -1,0 +1,13 @@
+#!/bin/sh
+
+set -eu
+
+netlify --version
+
+if [ "$BUILDKITE_BRANCH" = 'main' ]; then
+  echo 'Deploying to production.'
+  netlify deploy --prod
+else
+  echo 'Deploying to draft site.'
+  netlify deploy
+fi
