@@ -1,8 +1,7 @@
 ---
-layout: '../../layouts/CareersLayout.astro'
 title: Senior Web3 Software Engineering Consultant (Rust)
 date: 2022-09-08
-draft: false
+draft: true
 ---
 
 # Role overview
@@ -36,4 +35,3 @@ As a Senior Software Engineer, you will:
 ### Opportunity
 
 This is your chance to join a small, collaborative team and to work on fascinating cross-disciplinary problems that span cryptography, data engineering, product design, economics, distributed systems, and more.
-
