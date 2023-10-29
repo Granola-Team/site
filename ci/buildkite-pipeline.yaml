@@ -3,17 +3,17 @@ steps:
   command: |
     echo $HOME
     echo $PATH
-    nix-shell ops/shell.nix --run "echo Nix works"
+    nix-shell --run "echo Nix works"
   key: prereqs
 
 - label: "Build"
   command: |
-    nix-shell ops/shell.nix --run "netlify build"
+    nix-shell --run "netlify build"
   key: build
   depends_on: prereqs
 
 #- label: "Publish"
 #  command: |
-#    nix-shell ops/shell.nix --run "netlify publish"
+#    nix-shell --run "netlify publish"
 #  key: publish
 #  depends_on: build
