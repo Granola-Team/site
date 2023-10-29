@@ -1,9 +1,9 @@
 ---
 import BlogLayout from '../../layouts/BlogLayout.astro';
 export async function getStaticPaths({paginate}) {
-    const allJobs = await Astro.glob('./*.md');
-    const sortedJobs = (allJobs).sort((a,b) => new Date(b.date).valueOf() - new Date(a.date).valueOf());
-    return paginate(sortedJobs, {pageSize: 4});
+    const allBlogs = await Astro.glob('./*.md');
+    const sortedBlogs = allBlogs.sort((a,b) => new Date(b.date).valueOf() - new Date(a.date).valueOf());
+    return paginate(sortedBlogs, {pageSize: 4});
 }
 const {page, frontmatter} = Astro.props;
 const title = "Blog"
@@ -20,10 +20,10 @@ const url = Astro.url;
             engineering, product design, economics, and more by clicking on our blog posts below.
         </p>
         <h3 class="text-2xl sm:text-3xl text-white">Our Insights:</h3>
-        <ul class="h-[50vh] p-0">{page.data.map((jobs: {frontmatter: string; url: string | URL; title: unknown;}) => (
+        <ul class="h-[50vh] p-0">{page.data.map((blogs: {frontmatter: string; url: string | URL; title: unknown;}) => (
             <li class="flex flex-col flex-shrink p-4 list-none">
-                <a href={jobs.url} class="py-4 px-8 rounded-lg text-logoOrange no-underline text-2xl
-                bg-white hover:bg-gray-400 hover:transition-none hover:duration-75">{jobs.frontmatter.title} &rarr;
+                <a href={blogs.url} class="py-4 px-8 rounded-lg text-logoOrange no-underline text-2xl
+                bg-white hover:bg-gray-400 hover:transition-none hover:duration-75">{blogs.frontmatter.title} &rarr;
                 <div class="px-2 pt-2 pb-2">
                     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Reproducibility</span>
                     <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#Decentralization</span>

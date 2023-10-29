@@ -1,0 +1,12 @@
+steps:
+- label: "Prereqs"
+  command: |
+    echo HOME=$HOME
+    echo PATH=$PATH
+    nix-shell --run "which netlify && which pnpm"
+  key: prereqs
+
+- label: "Publish"
+  command: |
+    nix-shell --run "netlify build && netlify deploy"
+  depends_on: prereqs

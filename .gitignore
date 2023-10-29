@@ -3,6 +3,3 @@
 
 # MacOS Finder file droppings
 .DS_Store
-
-# Local Netlify directories
-.netlify
