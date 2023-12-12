@@ -33,13 +33,12 @@ software. You thrive in a competitive and quickly changing organization.
 
 As a Senior Software Developer, you will:
 
-- Write code primarily in the Rust programming language and in the OCaml
-  programming language, but also use many other software tools and
-  technologies.
+- Write code primarily in Rust and OCaml, but also use many other software
+  tools and technologies.
 - Deliver and maintain software throughout its entire lifecycle.
 - Act productively in a context of competing objectives.
-- Promote an software development environment with heavy emphasis on testing
-  and testability.
+- Promote a software development environment with heavy emphasis on testing and
+  testability.
 - Morph DevOps processes to be more effective.
 - Coach fellow software developers to improve professionally.
 - Guide the development and the documentation of the code base so that it
