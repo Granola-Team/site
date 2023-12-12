@@ -1,7 +1,6 @@
 ---
-title: Our Services
+title: Our Services 2
 layout: ../layouts/index.astro
-draft: true
 ---
 
 # Our Services
