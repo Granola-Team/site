@@ -33,19 +33,18 @@ thrive in a competitive and quickly changing organisation.
 
 As a Senior Software Developer, you will:
 
-- Write code primarily in Rust and in OCaml, but also understand many other
-  software tools and technologies.
+- Write code primarily in the Rust programming language and in the OCaml
+  programming language, but also use many other software tools and
+  technologies.
 - Deliver and maintain software throughout its entire lifecycle.
 - Act productively in a context of competing objectives.
-- Promote an engineering environment with heavy emphasis on testing and
-  testability.
+- Promote an software development environment with heavy emphasis on testing
+  and testability.
 - Morph DevOps processes to be more effective.
-- Coach software engineers to improve professionally.
+- Coach fellow software developers to improve professionally.
 - Guide the development and the documentation of the code base so that it
   becomes more cloud-friendly, more developer-friendly, and easier to adopt.
-- Help to transform the input of the Product team into engineering
-  deliverables.
-- Contribute to the software engineering hiring processes.
-- Coordinate well in projects that cross organisational boundaries.
+- Coordinate and communicate productively in projects that cross organisational
+  boundaries.
 
 Contact us to apply.
