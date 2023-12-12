@@ -13,7 +13,7 @@ Consultants at Granola are experts in:
 - Blockchain technology
 - Distributed systems
 - Data engineering
-- Rust and [OCaml](https://ocaml.org/)
+- [Rust](https://www.rust-lang.org/) and [OCaml](https://ocaml.org/)
 - [DevOps](https://en.wikipedia.org/wiki/DevOps)
 - [Web3](https://en.wikipedia.org/wiki/Web3)
 - [Nix](https://nixos.org/)
