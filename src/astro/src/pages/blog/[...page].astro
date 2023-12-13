@@ -1,15 +1,18 @@
 ---
-import BlogLayout from '../../layouts/default.astro';
+import Layout from '../../layouts/default.astro';
 export async function getStaticPaths({paginate}) {
     const allBlogs = await Astro.glob('./*.md');
     const sortedBlogs = allBlogs.sort((a,b) => new Date(b.date).valueOf() - new Date(a.date).valueOf());
     return paginate(sortedBlogs, {pageSize: 4});
 }
-const {page, frontmatter} = Astro.props;
-const title = "Blog"
+const {page} = Astro.props;
+const frontmatter = {
+  title: "Granola Blog",
+  description: "Blog Articles by Granola Systems Inc.",
+};
 const url = Astro.url;
 ---
-<BlogLayout title={title}>
+<Layout frontmatter={frontmatter}>
   <ul class="h-[50vh] p-0">{page.data.map((blog: {frontmatter: string; url: string | URL; title: unknown;}) => (
     <li class="flex flex-col flex-shrink p-4 list-none">
       <a
@@ -19,4 +22,4 @@ const url = Astro.url;
     </li>
     ))}
   </ul>
-</BlogLayout>
+</Layout>
