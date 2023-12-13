@@ -6,12 +6,15 @@ import '../styles/styles.css';
 
 const {frontmatter} = Astro.props;
 ---
+
 <html lang="en" class="w-full h-full">
-  <head>
-    <Heading title={frontmatter.title} />
-  </head>
-<body class="w-full h-full bg-no-repeat bg-cover bg-center bg-fixed bg-logoDark">
-  <Front />
+<head>
+  <Heading title={frontmatter.title} />
+</head>
+<body class="w-full h-full bg-no-repeat bg-cover bg-center bg-fixed bg-logoDark text-white">
+  <Front>
+    <slot />
+  </Front>
 </body>
 <footer>
   <Footer />
