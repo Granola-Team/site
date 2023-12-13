@@ -1,6 +1,6 @@
 ---
+layout: ../layouts/default.astro
 title: About Granola Systems
-layout: ../layouts/BlogLayout.astro
 ---
 
 # About Granola Systems

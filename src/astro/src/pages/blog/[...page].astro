@@ -1,5 +1,5 @@
 ---
-import BlogLayout from '../../layouts/BlogLayout.astro';
+import BlogLayout from '../../layouts/default.astro';
 export async function getStaticPaths({paginate}) {
     const allBlogs = await Astro.glob('./*.md');
     const sortedBlogs = allBlogs.sort((a,b) => new Date(b.date).valueOf() - new Date(a.date).valueOf());

@@ -5,3 +5,6 @@ public/styles/
 
 # logs
 pnpm-debug.log*
+
+# Astro droppings
+src/env.d.ts
