@@ -1,6 +1,7 @@
 ---
 layout: '../../layouts/default.astro'
 title: Mina FAQ
+type: article
 date: 2022-09-20
 ---
 
