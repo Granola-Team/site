@@ -1,6 +1,8 @@
 ---
-layout: '../../layouts/BlogLayout.astro'
+layout: '../../layouts/default.astro'
 title: On-Chain Voting Results for Mina MIPs
+author: Isaac DeFrain
+type: article
 date: 2023-01-20
 ---
 

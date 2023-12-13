@@ -1,14 +1,15 @@
 ---
-const {title} = Astro.props;
+const {page, frontmatter} = Astro.props;
 ---
 
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="Granola is a software consultancy. We make winning software teams.">
-<meta name="author" content="Granola Systems">
-<meta property="og:title" content="Granola Systems">
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://granola.team">
-<meta property="og:description" content="Granola is a software consultancy. We make winning software teams.">
-<title>{title}</title>
+<meta name="description" content={frontmatter.description}>
+<meta name="author" content={frontmatter.author || "Granola Systems"}>
+<meta property="og:title" content={frontmatter.title}>
+<meta property="og:type" content={frontmatter.type || "website"}>
+<meta property="og:url" content={Astro.url}>
+<meta property="og:description" content={frontmatter.description}>
+<meta property="og:image" content={frontmatter.image || "/images/DarkTransparentGranolaLogo.png" }>
+<title>{frontmatter.title}</title>
 <link rel="stylesheet" href="../styles/styles.css">

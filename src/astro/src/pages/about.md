@@ -1,6 +1,6 @@
 ---
+layout: ../layouts/default.astro
 title: About Granola Systems
-layout: ../layouts/BlogLayout.astro
 ---
 
 # About Granola Systems
@@ -21,10 +21,10 @@ Consultants at Granola are experts in:
 We combine these skills to make winning software teams for our clients.
 
 Granola is headquartered in Vancouver, Canada, but our consultants work
-remotely from our clients.  Granola is a proponent of remote work. We consult
-on the effective use remote work practices.  Our consultants work from Canada,
-U.S.A., Mexico, Portugal, and Germany. Our clients are in Canada, U.S.A., and
-Europe.
+remotely from our clients.  Granola is a proponent of remote work, and we
+consult on the effective use of remote work practices.  Our consultants work
+from Canada, U.S.A., Mexico, Portugal, and Germany. Our clients are in Canada,
+U.S.A., and Europe.
 
 We believe in:
 

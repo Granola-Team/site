@@ -1,6 +1,7 @@
 ---
 layout: ../layouts/index.astro
-title: Granola Systems
+title: Granola
+description: Granola is a software consultancy. We make winning software teams.
 ---
 
 Granola is a software consultancy. We make winning teams using
