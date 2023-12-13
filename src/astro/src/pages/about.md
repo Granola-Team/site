@@ -40,8 +40,8 @@ Our recent projects include:
   milieu for a U.S.-based enterprise client.
 - Leading a nascent software engineering organization at a U.S.-based
   blockchain foundation.
-- Developing the back-end, the front-end, and the IT operations for an open
+- Developing the back end, the front end, and the IT operations for an open
   source [blockchain-based voting application](https://mina.vote).
-- Developing the open source data processing software for use in the [block
+- Developing the open-source data processing software for use in the [block
   explorer](https://github.com/Granola-Team/mina-indexer) for an L1
   blockchain.
