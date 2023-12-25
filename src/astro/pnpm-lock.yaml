@@ -13,13 +13,13 @@ dependencies:
     version: 4.0.1
   '@astrojs/tailwind':
     specifier: ^5.0.3
-    version: 5.0.3(astro@3.6.4)(tailwindcss@3.3.6)
+    version: 5.0.3(astro@3.6.4)(tailwindcss@3.4.0)
   astro:
     specifier: ^3.6.4
     version: 3.6.4
   tailwindcss:
-    specifier: ^3.3.6
-    version: 3.3.6
+    specifier: ^3.4.0
+    version: 3.4.0
 
 packages:
 
@@ -108,7 +108,7 @@ packages:
       kleur: 4.1.5
     dev: false
 
-  /@astrojs/tailwind@5.0.3(astro@3.6.4)(tailwindcss@3.3.6):
+  /@astrojs/tailwind@5.0.3(astro@3.6.4)(tailwindcss@3.4.0):
     resolution: {integrity: sha512-p+uFa1PNuV8RxhGkPUFgVq8CUbmS3xr0u5k1An2xKECLotRh7vsrGcPUijHvYOt42URohcg8rIq0CxNoVMhReg==}
     peerDependencies:
       astro: ^3.0.0 || ^4.0.0
@@ -118,7 +118,7 @@ packages:
       autoprefixer: 10.4.16(postcss@8.4.32)
       postcss: 8.4.32
       postcss-load-config: 4.0.2(postcss@8.4.32)
-      tailwindcss: 3.3.6
+      tailwindcss: 3.4.0
     transitivePeerDependencies:
       - ts-node
     dev: false
@@ -3851,8 +3851,8 @@ packages:
     engines: {node: '>= 0.4'}
     dev: false
 
-  /tailwindcss@3.3.6:
-    resolution: {integrity: sha512-AKjF7qbbLvLaPieoKeTjG1+FyNZT6KaJMJPFeQyLfIp7l82ggH1fbHJSsYIvnbTFQOlkh+gBYpyby5GT1LIdLw==}
+  /tailwindcss@3.4.0:
+    resolution: {integrity: sha512-VigzymniH77knD1dryXbyxR+ePHihHociZbXnLZHUyzf2MMs2ZVqlUrZ3FvpXP8pno9JzmILt1sZPD19M3IxtA==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
