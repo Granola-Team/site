@@ -3,4 +3,3 @@ steps:
   command: |
     nix-shell --run "cd src/astro && ./build"
     nix-shell --run ./deploy
-  depends_on: prereqs
