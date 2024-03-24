@@ -5,5 +5,6 @@ pkgs.mkShell {
   buildInputs = [
     pkgs.netlify-cli
     pkgs.nodePackages.pnpm
+    pkgs.cacert  # Needed for correct SSL behaviour
   ];
 }
