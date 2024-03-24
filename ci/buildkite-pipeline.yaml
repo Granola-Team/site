@@ -8,6 +8,7 @@ steps:
 
 - label: "Build and Deploy"
   command: |
-    nix-shell --run "netlify build"
+    env | grep SSL
+    nix-shell --run "env | grep SSL && netlify build"
     nix-shell --run ./deploy
   depends_on: prereqs
