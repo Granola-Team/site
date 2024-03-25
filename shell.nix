@@ -1,10 +1,9 @@
-{ pkgs ? import (fetchTarball "https://github.com/NixOS/nixpkgs/archive/51d906d2341c9e866e48c2efcaac0f2d70bfd43e.tar.gz") {}
+{ pkgs ? import (fetchTarball "https://github.com/NixOS/nixpkgs/archive/e1d501922fd7351da4200e1275dfcf5faaad1220.tar.gz") {}
 }:
 
 pkgs.mkShell {
   buildInputs = [
-    pkgs.netlify-cli
     pkgs.nodePackages.pnpm
-    pkgs.cacert  # Needed for correct SSL behaviour
+    pkgs.cacert
   ];
 }
