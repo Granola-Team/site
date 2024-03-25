@@ -2,4 +2,5 @@ steps:
 - label: "Build and Deploy"
   command: |
     nix-shell --run "cd src/astro && ./build"
+    export NETLIFY_AUTH_TOKEN="$(cat /run/keys/netlify-auth-token)"
     nix-shell --run ./deploy

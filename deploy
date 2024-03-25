@@ -1,8 +1,13 @@
 #!/bin/sh
 
-set -eu
+set -e
 
 netlify --version
+
+if [ "$NETLIFY_AUTH_TOKEN" = '' ]; then
+  echo 'NETLIFY_AUTH_TOKEN not set. Exiting.'
+  exit 1
+fi
 
 if [ "$BUILDKITE_BRANCH" = 'main' ]; then
   echo 'Deploying to production.'
