@@ -3,7 +3,8 @@
 
 pkgs.mkShell {
   buildInputs = [
+    pkgs.cacert  # Needed for pnpm to use the network
     pkgs.nodePackages.pnpm
-    pkgs.cacert
+    pkgs.netlify-cli
   ];
 }
