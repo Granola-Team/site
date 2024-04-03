@@ -3,3 +3,6 @@
 
 # MacOS Finder file droppings
 .DS_Store
+
+# Direnv state directory
+/.direnv/
