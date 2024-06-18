@@ -6,13 +6,3 @@ steps:
     production: false
   command: |
     nix-shell --run "cd src/astro && ./build"
-- label: "Deploy"
-  key: deploy
-  depends_on: build
-  concurrency_group: "prod"
-  concurrency: 1
-  agents:
-    nix: true
-    production: true
-  command: |
-    nix-shell --run ./deploy
