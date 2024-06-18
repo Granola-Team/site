@@ -5,4 +5,5 @@ steps:
     nix: true
     production: false
   command: |
+    . /etc/profile
     nix-shell --run "cd src/astro && ./build"
